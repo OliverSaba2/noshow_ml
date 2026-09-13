@@ -38,7 +38,7 @@ pip install -r requirements.txt
 - [x] Data generation + basic exploration (`explore_data.py`)
 - [x] Data preparation (`prepare_data.py`, `preprocessing.py`)
 - [x] Model selection (`model_selection.py`)
-- [ ] Model training
+- [x] Model training (`train_model.py`)
 - [ ] Evaluation
 - [ ] Example predictions
 - [ ] Full write-up of approach
@@ -99,3 +99,18 @@ surprising — the synthetic target was generated from a logistic combination of
 so a linear-in-log-odds model is a natural fit. It also has a practical edge for this use case:
 its coefficients directly show which factors raise or lower no-show risk, which is easy to
 surface to clinic staff.
+
+Candidate hyperparameters live in `models.py`, shared by `model_selection.py` and
+`train_model.py` so they can't drift out of sync between the comparison and the final fit.
+
+## Step 4 — Model training
+
+```bash
+python train_model.py   # writes models/model.joblib
+```
+
+Reads `data/selected_model.json` to pick up the winner from Step 3, builds the same
+preprocessing + model pipeline, and fits it on the **entire** training set (cross-validation
+in Step 3 only ever trains on 4/5 of it per fold — the final model should use all of it). The
+fitted pipeline (preprocessing + logistic regression together) is saved to `models/model.joblib`
+so evaluation and prediction never have to re-fit or re-derive the preprocessing.

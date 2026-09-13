@@ -10,11 +10,9 @@ import json
 import os
 
 import pandas as pd
-from sklearn.ensemble import GradientBoostingClassifier, RandomForestClassifier
-from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import StratifiedKFold, cross_validate
-from sklearn.tree import DecisionTreeClassifier
 
+from models import CANDIDATES
 from preprocessing import build_pipeline, load_feature_config
 
 TRAIN_PATH = os.path.join("data", "train.csv")
@@ -24,15 +22,6 @@ REPORTS_DIR = "reports"
 # model that just predicts "attended" every time would score ~70% accuracy
 # while being useless. ROC-AUC and F1 are what actually separate the models.
 SCORING = ["accuracy", "precision", "recall", "f1", "roc_auc"]
-
-CANDIDATES = {
-    "logistic_regression": LogisticRegression(max_iter=1000, class_weight="balanced"),
-    "decision_tree": DecisionTreeClassifier(max_depth=6, class_weight="balanced", random_state=42),
-    "random_forest": RandomForestClassifier(
-        n_estimators=300, max_depth=8, class_weight="balanced", random_state=42
-    ),
-    "gradient_boosting": GradientBoostingClassifier(random_state=42),
-}
 
 
 def main():

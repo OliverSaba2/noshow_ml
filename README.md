@@ -37,7 +37,7 @@ pip install -r requirements.txt
 
 - [x] Data generation + basic exploration (`explore_data.py`)
 - [x] Data preparation (`prepare_data.py`, `preprocessing.py`)
-- [ ] Model selection
+- [x] Model selection (`model_selection.py`)
 - [ ] Model training
 - [ ] Evaluation
 - [ ] Example predictions
@@ -78,3 +78,24 @@ ones) that gets attached to the model itself as an sklearn `Pipeline` in the nex
 matters: if we scaled/encoded once on the whole training set before cross-validation, each
 CV fold would see statistics computed from data it's not supposed to know about yet (a subtle
 form of data leakage). Fitting the transformer inside the pipeline avoids that.
+
+## Step 3 — Model selection
+
+```bash
+python model_selection.py   # writes reports/model_selection_results.csv, data/selected_model.json
+```
+
+Compares four candidates with 5-fold stratified cross-validation on the training set only:
+logistic regression, decision tree, random forest, gradient boosting. Each is wrapped in the
+same `preprocessing.py` pipeline so scaling/encoding is refit per fold.
+
+Why these metrics: `no_show` is imbalanced (~30% positive), so accuracy alone is misleading —
+a model that always predicts "attended" scores ~70% accuracy while being useless. The model
+is selected by mean **ROC-AUC** (ranking quality across all thresholds, useful since a clinic
+can pick its own risk cutoff), with precision/recall/F1 also recorded so the trade-off is visible.
+
+Result: **logistic regression** had the best ROC-AUC (~0.72) and F1 (~0.53). This isn't
+surprising — the synthetic target was generated from a logistic combination of the features,
+so a linear-in-log-odds model is a natural fit. It also has a practical edge for this use case:
+its coefficients directly show which factors raise or lower no-show risk, which is easy to
+surface to clinic staff.

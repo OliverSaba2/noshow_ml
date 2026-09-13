@@ -35,8 +35,8 @@ pip install -r requirements.txt
 
 ## Progress
 
-- [x] Data generation + basic exploration (`generate_data.py`, `explore_data.py`)
-- [ ] Data preparation
+- [x] Data generation + basic exploration (`explore_data.py`)
+- [x] Data preparation (`prepare_data.py`, `preprocessing.py`)
 - [ ] Model selection
 - [ ] Model training
 - [ ] Evaluation
@@ -46,7 +46,6 @@ pip install -r requirements.txt
 ## Step 1 — Data exploration
 
 ```bash
-python generate_data.py   # writes data/appointments.csv
 python explore_data.py    # prints EDA to console, saves plots to reports/
 ```
 
@@ -55,3 +54,27 @@ Findings from the synthetic data:
 - No missing values (synthetic data is clean; a real dataset should be checked again).
 - Clear no-show signal from `reminder_sent` (41% no-show without a reminder vs 26% with one),
   `new_patient` (48% vs 29% for returning patients), and longer `days_before_appointment`.
+
+## Step 2 — Data preparation
+
+```bash
+python prepare_data.py    # writes data/train.csv, data/test.csv, data/feature_config.json
+```
+
+What it does:
+- Basic cleaning: fills any missing numeric/categorical values, clips `previous_no_shows`
+  so it can never exceed `previous_appointments`.
+- Feature engineering: adds `previous_no_show_rate` (a patient's personal history of
+  missed appointments), which is a stronger, more directly comparable signal than the
+  raw `previous_no_shows` / `previous_appointments` counts.
+- Stratified 80/20 train/test split on `no_show`, so both splits keep the same class balance.
+- Writes `data/feature_config.json` as the single source of truth for which columns are
+  numeric vs. categorical, so every later script (model selection, training, prediction)
+  reads the same definition instead of redefining it.
+
+Encoding/scaling is intentionally **not** done in this step. `preprocessing.py` builds a
+`ColumnTransformer` (`StandardScaler` for numeric features, `OneHotEncoder` for categorical
+ones) that gets attached to the model itself as an sklearn `Pipeline` in the next step. This
+matters: if we scaled/encoded once on the whole training set before cross-validation, each
+CV fold would see statistics computed from data it's not supposed to know about yet (a subtle
+form of data leakage). Fitting the transformer inside the pipeline avoids that.

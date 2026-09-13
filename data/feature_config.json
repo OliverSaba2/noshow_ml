@@ -1,0 +1,18 @@
+{
+  "target": "no_show",
+  "numeric_features": [
+    "age",
+    "days_before_appointment",
+    "previous_appointments",
+    "previous_no_shows",
+    "previous_no_show_rate",
+    "reminder_sent",
+    "new_patient"
+  ],
+  "categorical_features": [
+    "gender",
+    "appointment_type",
+    "weekday",
+    "appointment_time"
+  ]
+}

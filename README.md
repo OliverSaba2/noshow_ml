@@ -26,8 +26,7 @@ streamlit run app.py
 ```
 
 `data/appointments.csv` is a synthetic dataset (no real one was attached to the
-assessment) — see [EXPLANATION.md](EXPLANATION.md) for why, and drop in a real
-dataset with the same columns to use it instead.
+assessment).
 
 ## Columns
 

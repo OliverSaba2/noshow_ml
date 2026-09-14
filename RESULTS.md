@@ -1,8 +1,7 @@
 # Results
 
 Numbers from this run of the pipeline (synthetic dataset, `random_state=42`, reproducible
-by re-running the scripts in the README). For the reasoning behind these choices, see
-[EXPLANATION.md](EXPLANATION.md).
+by re-running the scripts in the README). For the reasoning behind these choices.
 
 ## Dataset
 
@@ -21,10 +20,8 @@ by re-running the scripts in the README). For the reasoning behind these choices
 | Decision tree | 0.618 | 0.403 | 0.521 | 0.452 | 0.633 |
 
 Selected: **logistic regression** — best ROC-AUC, and the most interpretable of the four.
-(Gradient boosting has the highest accuracy but the worst recall — it mostly plays it safe
-and predicts "attended," which is exactly the failure mode accuracy alone hides.)
 
-## Test set performance (600 held-out appointments, never used before this point)
+## Test set performance
 
 | Metric | Value |
 |---|---|
@@ -45,8 +42,7 @@ rather than having gotten lucky during selection.
 | **Actually no-show** (183) | 57 | 126 |
 
 The model catches 126/183 (69%) of real no-shows. It over-flags some attendees as at-risk
-(132 false alarms), which is the deliberate trade-off — see EXPLANATION.md for why missing
-a no-show is costlier than a false alarm here.
+(132 false alarms), which is the deliberate trade-off.
 
 Plots: `reports/confusion_matrix.png`, `reports/roc_curve.png`
 

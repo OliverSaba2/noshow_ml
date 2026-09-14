@@ -39,7 +39,7 @@ pip install -r requirements.txt
 - [x] Data preparation (`prepare_data.py`, `preprocessing.py`)
 - [x] Model selection (`model_selection.py`)
 - [x] Model training (`train_model.py`)
-- [ ] Evaluation
+- [x] Evaluation (`evaluate_model.py`)
 - [ ] Example predictions
 - [ ] Full write-up of approach
 
@@ -114,3 +114,36 @@ preprocessing + model pipeline, and fits it on the **entire** training set (cros
 in Step 3 only ever trains on 4/5 of it per fold — the final model should use all of it). The
 fitted pipeline (preprocessing + logistic regression together) is saved to `models/model.joblib`
 so evaluation and prediction never have to re-fit or re-derive the preprocessing.
+
+## Step 5 — Evaluation
+
+```bash
+python evaluate_model.py
+```
+
+Evaluated on the **test set only** (the 20% held out in Step 2, never touched during
+selection or training). Results:
+
+| Metric | Value |
+|---|---|
+| Accuracy | 0.685 |
+| Precision (no_show) | 0.488 |
+| Recall (no_show) | 0.689 |
+| F1 (no_show) | 0.571 |
+| ROC-AUC | 0.726 |
+
+These line up closely with the 5-fold CV numbers from Step 3, which is the sign to look
+for: it means the model generalizes and Step 3 wasn't overfit to a lucky CV split.
+
+Why recall matters more than precision here: missing a real no-show (false negative) means
+the clinic does nothing and loses the slot; flagging an attendee as at-risk (false positive)
+just means an extra reminder or a slightly cautious overbook. That asymmetric cost is why
+recall (0.69) was prioritized over precision (0.49) when comparing candidates — a model tuned
+purely for accuracy would under-predict the minority `no_show` class instead.
+
+`reports/confusion_matrix.png` and `reports/roc_curve.png` visualize this. `reports/feature_importance.png`
+(and the underlying `.csv`) show the logistic regression coefficients — the biggest drivers of
+predicted no-show risk are, in order: longer `days_before_appointment`, younger `age`, no
+`reminder_sent`, and `appointment_time` (evening riskier than morning). This matches the EDA
+in Step 1 and gives the clinic concrete, actionable levers (e.g. send reminders, prioritize
+follow-up calls for long-lead-time bookings).

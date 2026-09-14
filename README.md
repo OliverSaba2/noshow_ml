@@ -34,6 +34,12 @@ python predict_examples.py
 (`data/appointments.csv` is already committed, so `explore_data.py` can also be run any
 time on its own.)
 
+For a quick, visual look at the whole project instead of the CLI scripts, run:
+
+```bash
+streamlit run app.py
+```
+
 ## Columns
 
 | Column | Meaning |
@@ -59,6 +65,7 @@ time on its own.)
 - [x] Evaluation (`evaluate_model.py`)
 - [x] Example predictions (`predict_examples.py`)
 - [x] Full write-up of approach
+- [x] Streamlit UI (`app.py`)
 
 ## Step 1 — Data exploration
 
@@ -189,6 +196,20 @@ Example output:
 The model separates these cleanly, and the ranking matches what the feature coefficients
 predict it should.
 
+## Streamlit app
+
+```bash
+streamlit run app.py
+```
+
+A small UI over everything above, for browsing the project without touching the CLI:
+
+- **Predict** — form to score a single patient, with a risk level (low/medium/high) and
+  probability.
+- **Model insights** — live test-set metrics, plus the confusion matrix, ROC curve, and
+  feature-importance plots from Step 5.
+- **Dataset** — headline stats and an interactive no-show-rate breakdown by any feature.
+
 ## Project structure
 
 ```
@@ -208,7 +229,8 @@ noshow_ml/
 ├── model_selection.py         # Step 3
 ├── train_model.py             # Step 4
 ├── evaluate_model.py          # Step 5
-└── predict_examples.py        # Step 6
+├── predict_examples.py        # Step 6
+└── app.py                     # Streamlit UI
 ```
 
 ## Integrating this into a real product

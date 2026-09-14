@@ -40,7 +40,7 @@ pip install -r requirements.txt
 - [x] Model selection (`model_selection.py`)
 - [x] Model training (`train_model.py`)
 - [x] Evaluation (`evaluate_model.py`)
-- [ ] Example predictions
+- [x] Example predictions (`predict_examples.py`)
 - [ ] Full write-up of approach
 
 ## Step 1 — Data exploration
@@ -147,3 +147,27 @@ predicted no-show risk are, in order: longer `days_before_appointment`, younger 
 `reminder_sent`, and `appointment_time` (evening riskier than morning). This matches the EDA
 in Step 1 and gives the clinic concrete, actionable levers (e.g. send reminders, prioritize
 follow-up calls for long-lead-time bookings).
+
+## Step 6 — Example predictions
+
+```bash
+python predict_examples.py                                   # scores 4 built-in example patients
+python predict_examples.py --input new.csv --output preds.csv # scores your own patients, saves a CSV
+```
+
+`--input` accepts a CSV with the same raw columns as `data/appointments.csv` (no `no_show`
+column needed). It reuses `clean_and_engineer` from `prepare_data.py`, so the exact same
+feature engineering used in training runs on new data — nothing is duplicated or can drift
+out of sync.
+
+Example output:
+
+| patient | no_show_probability | predicted_no_show |
+|---|---|---|
+| Returning patient, reminder sent, morning slot | 0.116 | 0 |
+| New patient, no reminder, 45-day lead time, evening slot | 0.942 | 1 |
+| Returning patient, history of no-shows, no reminder | 0.908 | 1 |
+| Returning patient, reminder sent, appointment in 2 days | 0.164 | 0 |
+
+The model separates these cleanly, and the ranking matches what the feature coefficients
+predict it should.

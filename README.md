@@ -4,12 +4,35 @@ Predicts whether a patient is likely to miss (no-show) an upcoming clinic appoin
 
 Built for the CliniKit AI Trainee Assessment, Part 2 — Machine Learning.
 
-## Note on the data
+## Approach at a glance
 
-The assessment describes a dataset but doesn't attach one, so `generate_data.py`
-creates a synthetic dataset with the same columns and a realistic (not perfectly
-separable) relationship between features and the `no_show` target. Swap in a
-real dataset with the same column names and everything downstream keeps working.
+1. **No real dataset was attached to the assessment**, so `data/appointments.csv` is a
+   synthetically generated stand-in with the exact columns described in the brief, and a
+   realistic (not perfectly separable) relationship between the features and `no_show`.
+   Drop in a real dataset with the same column names and every step below keeps working.
+2. Explored the data, cleaned it, and engineered one extra feature (`previous_no_show_rate`).
+3. Compared 4 candidate models with 5-fold cross-validation and picked by ROC-AUC.
+4. **Logistic regression** won — it's also the most interpretable option, which matters
+   for a clinic tool (see [Step 3](#step-3--model-selection)).
+5. Trained it on the full training set, evaluated on a held-out test set
+   (ROC-AUC 0.726, recall 0.689 — see [Step 5](#step-5--evaluation)), and used it to score
+   example patients (see [Step 6](#step-6--example-predictions)).
+6. See [Integrating this into a real product](#integrating-this-into-a-real-product) for
+   how this would plug into clinic software.
+
+Run everything end-to-end with:
+
+```bash
+pip install -r requirements.txt
+python prepare_data.py
+python model_selection.py
+python train_model.py
+python evaluate_model.py
+python predict_examples.py
+```
+
+(`data/appointments.csv` is already committed, so `explore_data.py` can also be run any
+time on its own.)
 
 ## Columns
 
@@ -27,12 +50,6 @@ real dataset with the same column names and everything downstream keeps working.
 | new_patient | Whether this is the patient's first appointment (0/1) |
 | no_show | Target: 1 = missed appointment, 0 = attended |
 
-## Setup
-
-```bash
-pip install -r requirements.txt
-```
-
 ## Progress
 
 - [x] Data generation + basic exploration (`explore_data.py`)
@@ -41,7 +58,7 @@ pip install -r requirements.txt
 - [x] Model training (`train_model.py`)
 - [x] Evaluation (`evaluate_model.py`)
 - [x] Example predictions (`predict_examples.py`)
-- [ ] Full write-up of approach
+- [x] Full write-up of approach
 
 ## Step 1 — Data exploration
 
@@ -171,3 +188,60 @@ Example output:
 
 The model separates these cleanly, and the ranking matches what the feature coefficients
 predict it should.
+
+## Project structure
+
+```
+noshow_ml/
+├── data/
+│   ├── appointments.csv       # raw dataset (synthetic — see note above)
+│   ├── train.csv, test.csv    # stratified split, written by prepare_data.py
+│   ├── feature_config.json    # single source of truth for feature lists
+│   └── selected_model.json    # which model won selection, written by model_selection.py
+├── models/
+│   └── model.joblib           # fitted preprocessing + model pipeline
+├── reports/                   # plots and CSVs from exploration/selection/evaluation
+├── explore_data.py            # Step 1
+├── prepare_data.py            # Step 2
+├── preprocessing.py           # shared ColumnTransformer, used by every step below
+├── models.py                  # shared candidate model definitions
+├── model_selection.py         # Step 3
+├── train_model.py             # Step 4
+├── evaluate_model.py          # Step 5
+└── predict_examples.py        # Step 6
+```
+
+## Integrating this into a real product
+
+The model itself is just `models/model.joblib` — an sklearn pipeline that takes a
+DataFrame with the 10 raw columns and returns a no-show probability. Wiring it into a
+real clinic system would look like:
+
+- **Serve it behind an API**, not embedded in the app. Wrap `pipeline.predict_proba` in a
+  small FastAPI/Flask service with one endpoint (e.g. `POST /predict` taking one or many
+  appointment records, returning a probability per record — `predict_examples.py`'s
+  `predict()` function is already shaped for this). This keeps the ML runtime decoupled
+  from the scheduling app, deployable and scaled independently, and swappable without
+  touching the app's code.
+- **Score at booking time and again as the appointment approaches.** A no-show risk isn't
+  static — `days_before_appointment` shrinks and `reminder_sent` flips as the date gets
+  closer, both of which move the prediction. Re-score once when the appointment is booked
+  and again shortly before it (e.g. nightly batch job or on reminder-send), and surface the
+  risk level on the staff-facing schedule (e.g. a colored badge) rather than just a raw number.
+- **Use the score to trigger action, not just display it**: e.g. auto-prioritize a second
+  reminder or a confirmation call for high-risk bookings, or allow controlled overbooking
+  in slots with a high predicted no-show rate — exactly the kind of decision the top
+  coefficients in `reports/feature_importance.png` support (long lead time, no reminder yet,
+  new patient, evening slot).
+- **Retrain on a schedule, not once.** No-show behavior drifts (season, patient population,
+  clinic policy changes). Keep `prepare_data.py` → `model_selection.py` → `train_model.py`
+  → `evaluate_model.py` as a pipeline that can be re-run periodically (e.g. monthly) against
+  fresh data, and gate deploying a new `model.joblib` on it beating the currently deployed
+  model's test metrics — reusing `evaluate_model.py` as that gate.
+- **Log predictions vs. outcomes** (predicted probability alongside what actually happened)
+  so evaluation metrics can be recomputed on real production data over time, not just the
+  original test split — that's what would catch drift early.
+- **Treat the model as one input, not a gatekeeper.** False positives here just mean an
+  extra reminder; false negatives mean a missed slot. Staff should be able to see *why* a
+  patient was flagged (the feature values that drove it, since logistic regression makes
+  this cheap to compute) and override the system, especially early on while trust is built.

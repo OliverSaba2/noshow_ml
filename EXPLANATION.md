@@ -10,26 +10,29 @@ The goal here is a model that flags, ahead of time, which appointments are at ri
 
 ## 1. Getting data
 
-This project generates a synthetic dataset with
-the columns seen in the Assessment (`data/appointments.csv`, 3000 rows). It's built so the target
-depends on the features in a realistic way — reminders lower risk, a longer wait before
-the appointment raises it, and so on — without being trivially easy to predict. Drop in a
-real dataset with the same column names and everything else still works.
+`data/appointments.csv` (3000 rows) has the columns seen in the Assessment, plus a row
+identifier that's carried along but never used as a feature. The pipeline only depends on
+the column names, so swapping in a different dataset with the same columns still works
+without changing any code.
 
 ## 2. Looking at the data
 
 Before building anything, `explore_data.py` checks the basics: how big is the dataset, is
-anything missing, how imbalanced is the target (about 30% of appointments are no-shows),
-and which features already look related to no-shows just by eyeballing group averages.
-This is what pointed at reminders and lead time as promising signals early on.
+anything missing, how imbalanced is the target (about 16% of appointments are no-shows) and which features already look related to
+no-shows just by eyeballing group averages. Reminders stood out early (no-show rate roughly
+1.5x higher without one); most other raw group differences were small, which is what
+pushed the modeling step past logistic regression's raw coefficients and toward looking at
+adjusted effects instead.
 
 ## 3. Cleaning and preparing
 
 `prepare_data.py`: filling in anything missing,
 fixing an impossible value (a patient can't have more no-shows than appointments), and
-adding one new feature (a patient's personal no-show *rate*, which turned out to be more
-useful than the raw counts). It then splits the data into a training set and a test set,
-keeping the same no-show ratio in both, so the test set is a fair, untouched check later.
+adding one new feature (a patient's personal no-show *rate*, alongside the raw counts -
+on this dataset the raw count of past no-shows ended up mattering more to the model, but
+the rate is cheap to compute and kept in case that changes on other data). It then splits
+the data into a training set and a test set, keeping the same no-show ratio in both, so
+the test set is a fair, untouched check later.
 
 Turning categories like "weekday" into numbers, and scaling numeric columns, is deliberately
 *not* done at this stage (it's bundled with the model itself in the next step, so it's

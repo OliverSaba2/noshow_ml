@@ -1,601 +1,601 @@
-age,gender,appointment_type,days_before_appointment,previous_appointments,previous_no_shows,weekday,appointment_time,reminder_sent,new_patient,no_show,previous_no_show_rate
-69,F,dental,27,3,1,Thursday,morning,1,0,0,0.3333333333333333
-64,F,specialist,11,4,0,Monday,afternoon,0,0,0,0.0
-69,F,general,32,0,0,Thursday,afternoon,1,1,0,0.0
-41,F,general,56,5,2,Wednesday,evening,1,0,0,0.4
-10,F,dental,31,2,0,Wednesday,afternoon,1,0,0,0.0
-75,F,general,5,0,0,Thursday,morning,1,1,0,0.0
-23,F,specialist,44,1,0,Tuesday,morning,1,0,0,0.0
-71,F,general,56,5,1,Friday,morning,1,0,0,0.2
-27,M,vaccination,39,1,0,Friday,morning,0,0,0,0.0
-5,F,general,12,1,0,Tuesday,morning,1,0,1,0.0
-40,F,vaccination,42,5,1,Friday,afternoon,1,0,0,0.2
-15,M,dental,48,1,0,Thursday,morning,1,0,1,0.0
-4,M,follow_up,23,3,1,Saturday,morning,0,0,1,0.3333333333333333
-39,M,general,32,3,0,Tuesday,evening,1,0,0,0.0
-86,M,vaccination,58,5,0,Monday,afternoon,0,0,1,0.0
-37,M,vaccination,56,3,0,Wednesday,evening,1,0,1,0.0
-62,F,general,1,5,0,Wednesday,morning,0,0,0,0.0
-37,F,vaccination,40,3,0,Tuesday,evening,1,0,0,0.0
-56,M,dental,4,4,1,Wednesday,morning,1,0,1,0.25
-9,M,general,47,4,1,Wednesday,evening,1,0,1,0.25
-40,F,general,17,3,0,Thursday,afternoon,1,0,0,0.0
-53,M,general,45,0,0,Tuesday,afternoon,1,1,1,0.0
-16,M,specialist,10,3,1,Tuesday,afternoon,1,0,0,0.3333333333333333
-46,F,vaccination,35,3,0,Thursday,afternoon,1,0,0,0.0
-44,F,specialist,13,5,0,Thursday,afternoon,1,0,0,0.0
-31,M,dental,44,6,0,Wednesday,morning,1,0,1,0.0
-39,M,vaccination,1,3,0,Saturday,morning,1,0,0,0.0
-13,F,specialist,40,2,0,Friday,morning,0,0,0,0.0
-65,F,general,22,3,0,Saturday,afternoon,0,0,0,0.0
-32,M,vaccination,28,0,0,Thursday,afternoon,0,1,1,0.0
-40,F,dental,25,3,0,Friday,morning,0,0,0,0.0
-88,F,general,49,0,0,Tuesday,afternoon,1,1,0,0.0
-68,F,general,10,1,0,Friday,afternoon,1,0,0,0.0
-6,M,general,9,5,0,Friday,morning,1,0,0,0.0
-46,F,general,52,5,1,Monday,afternoon,1,0,1,0.2
-85,M,dental,24,4,0,Wednesday,afternoon,0,0,0,0.0
-61,M,general,44,1,0,Saturday,afternoon,1,0,1,0.0
-54,M,follow_up,58,5,0,Saturday,morning,0,0,1,0.0
-48,F,specialist,24,1,0,Monday,morning,1,0,0,0.0
-15,M,dental,4,9,5,Thursday,morning,1,0,0,0.5555555555555556
-11,F,general,44,2,0,Friday,afternoon,1,0,1,0.0
-37,F,general,14,3,1,Thursday,afternoon,0,0,0,0.3333333333333333
-68,F,specialist,6,4,1,Friday,morning,1,0,1,0.25
-79,F,vaccination,36,4,2,Thursday,morning,1,0,0,0.5
-14,M,dental,51,6,1,Friday,evening,1,0,1,0.16666666666666666
-34,M,follow_up,37,3,0,Friday,afternoon,0,0,0,0.0
-59,M,vaccination,4,2,1,Tuesday,evening,0,0,0,0.5
-48,M,general,13,4,1,Monday,afternoon,1,0,0,0.25
-38,F,follow_up,20,2,0,Wednesday,evening,1,0,1,0.0
-85,F,dental,43,1,0,Friday,evening,0,0,0,0.0
-30,M,general,45,3,1,Monday,afternoon,1,0,1,0.3333333333333333
-21,M,general,12,3,1,Tuesday,afternoon,0,0,1,0.3333333333333333
-11,F,vaccination,25,5,1,Friday,afternoon,0,0,0,0.2
-69,F,vaccination,48,2,0,Tuesday,afternoon,1,0,0,0.0
-80,F,dental,35,0,0,Monday,morning,1,1,0,0.0
-34,F,vaccination,44,6,0,Monday,morning,1,0,0,0.0
-87,F,specialist,18,2,0,Monday,morning,1,0,0,0.0
-31,F,general,23,0,0,Wednesday,morning,1,1,1,0.0
-42,F,general,23,5,0,Monday,morning,1,0,0,0.0
-4,F,specialist,36,3,0,Thursday,evening,0,0,1,0.0
-64,F,dental,2,4,1,Saturday,afternoon,1,0,0,0.25
-84,M,dental,30,2,0,Friday,morning,0,0,0,0.0
-79,M,dental,8,3,1,Tuesday,evening,1,0,0,0.3333333333333333
-43,M,dental,0,5,0,Thursday,afternoon,1,0,1,0.0
-8,F,specialist,22,4,1,Monday,morning,1,0,0,0.25
-20,F,specialist,7,2,0,Monday,morning,1,0,1,0.0
-86,M,specialist,60,3,0,Wednesday,evening,0,0,1,0.0
-24,M,follow_up,40,1,0,Saturday,afternoon,1,0,0,0.0
-63,F,dental,60,0,0,Wednesday,morning,1,1,1,0.0
-22,M,general,10,1,0,Tuesday,afternoon,0,0,0,0.0
-78,F,vaccination,33,1,0,Monday,morning,1,0,0,0.0
-16,F,specialist,29,1,0,Friday,evening,1,0,0,0.0
-84,F,dental,1,1,0,Thursday,morning,0,0,0,0.0
-26,M,general,27,4,1,Tuesday,morning,0,0,0,0.25
-51,M,specialist,58,3,0,Saturday,morning,1,0,0,0.0
-40,M,specialist,46,2,0,Saturday,morning,1,0,0,0.0
-89,M,dental,20,4,0,Monday,afternoon,1,0,0,0.0
-36,F,vaccination,5,5,1,Saturday,evening,1,0,0,0.2
-4,M,general,50,3,0,Thursday,afternoon,0,0,1,0.0
-60,F,general,38,3,0,Saturday,evening,1,0,0,0.0
-30,M,dental,51,4,1,Friday,afternoon,1,0,1,0.25
-71,F,specialist,43,2,1,Monday,afternoon,1,0,1,0.5
-63,F,general,37,2,0,Thursday,afternoon,0,0,0,0.0
-57,M,vaccination,17,4,1,Thursday,morning,1,0,1,0.25
-46,F,general,35,2,0,Saturday,afternoon,1,0,0,0.0
-22,M,vaccination,56,2,0,Friday,morning,1,0,0,0.0
-58,F,general,58,2,0,Wednesday,afternoon,1,0,0,0.0
-39,F,follow_up,28,4,0,Friday,afternoon,1,0,0,0.0
-17,F,vaccination,43,2,0,Friday,evening,0,0,0,0.0
-9,M,general,1,2,0,Saturday,morning,1,0,0,0.0
-17,F,general,47,2,0,Friday,morning,1,0,0,0.0
-5,F,specialist,3,3,0,Monday,morning,1,0,0,0.0
-79,M,general,38,4,1,Saturday,afternoon,0,0,1,0.25
-51,M,specialist,45,3,0,Saturday,afternoon,1,0,0,0.0
-89,F,general,30,2,0,Friday,afternoon,1,0,0,0.0
-74,M,vaccination,32,3,0,Friday,morning,1,0,0,0.0
-60,M,follow_up,32,1,0,Tuesday,morning,1,0,0,0.0
-65,M,general,13,3,0,Thursday,morning,1,0,0,0.0
-26,F,follow_up,51,1,0,Saturday,morning,0,0,0,0.0
-7,F,dental,36,1,0,Friday,morning,1,0,0,0.0
-55,F,vaccination,0,1,0,Tuesday,morning,0,0,0,0.0
-71,M,general,50,2,0,Tuesday,morning,1,0,0,0.0
-42,F,specialist,25,5,2,Friday,morning,0,0,1,0.4
-29,M,general,57,2,0,Saturday,afternoon,1,0,0,0.0
-87,F,general,30,3,1,Monday,afternoon,1,0,1,0.3333333333333333
-34,M,specialist,16,4,0,Thursday,morning,1,0,0,0.0
-62,F,general,54,3,1,Monday,evening,1,0,0,0.3333333333333333
-86,M,vaccination,58,3,0,Wednesday,afternoon,0,0,1,0.0
-1,F,follow_up,10,0,0,Saturday,morning,1,1,1,0.0
-14,F,follow_up,13,1,0,Saturday,morning,0,0,0,0.0
-20,F,specialist,56,5,0,Friday,evening,1,0,0,0.0
-76,F,follow_up,21,4,0,Thursday,evening,1,0,0,0.0
-25,F,vaccination,24,1,0,Wednesday,afternoon,1,0,1,0.0
-22,F,general,40,0,0,Friday,evening,0,1,1,0.0
-15,F,vaccination,26,3,0,Saturday,evening,0,0,0,0.0
-18,M,follow_up,29,4,1,Thursday,morning,1,0,0,0.25
-17,F,general,1,4,0,Friday,morning,1,0,0,0.0
-37,F,general,38,5,1,Friday,evening,0,0,1,0.2
-67,M,dental,4,2,0,Saturday,evening,1,0,0,0.0
-13,M,follow_up,45,1,0,Tuesday,morning,0,0,0,0.0
-60,F,general,24,0,0,Saturday,morning,0,1,1,0.0
-39,M,vaccination,11,4,0,Saturday,afternoon,1,0,0,0.0
-76,M,follow_up,15,4,0,Wednesday,morning,1,0,0,0.0
-34,F,vaccination,60,6,1,Thursday,morning,1,0,0,0.16666666666666666
-20,M,general,22,2,0,Tuesday,evening,1,0,0,0.0
-78,F,vaccination,23,3,0,Tuesday,evening,1,0,0,0.0
-82,F,general,8,3,0,Friday,afternoon,0,0,0,0.0
-76,M,specialist,14,0,0,Saturday,afternoon,1,1,0,0.0
-61,M,follow_up,7,3,0,Tuesday,evening,1,0,0,0.0
-30,M,general,1,1,0,Tuesday,afternoon,1,0,1,0.0
-62,M,follow_up,27,4,2,Saturday,morning,1,0,1,0.5
-41,F,general,50,5,1,Tuesday,morning,1,0,0,0.2
-69,M,specialist,12,1,0,Monday,afternoon,0,0,0,0.0
-82,F,vaccination,58,3,1,Monday,afternoon,0,0,1,0.3333333333333333
-8,M,vaccination,49,2,0,Thursday,afternoon,1,0,0,0.0
-42,F,follow_up,55,3,0,Tuesday,morning,1,0,0,0.0
-10,F,dental,49,1,0,Monday,evening,1,0,0,0.0
-78,M,dental,40,1,0,Thursday,morning,0,0,0,0.0
-9,F,general,7,4,0,Monday,morning,1,0,0,0.0
-80,M,general,9,3,1,Monday,afternoon,1,0,0,0.3333333333333333
-73,F,general,15,4,1,Monday,morning,0,0,0,0.25
-87,M,general,46,2,0,Wednesday,morning,0,0,0,0.0
-40,F,follow_up,31,3,1,Saturday,afternoon,1,0,1,0.3333333333333333
-45,F,vaccination,54,2,0,Monday,afternoon,1,0,0,0.0
-67,M,vaccination,27,2,0,Friday,afternoon,1,0,1,0.0
-31,M,general,58,3,0,Saturday,afternoon,0,0,1,0.0
-1,F,specialist,26,4,0,Friday,afternoon,1,0,0,0.0
-54,M,general,49,6,1,Saturday,morning,0,0,0,0.16666666666666666
-54,F,specialist,48,1,0,Wednesday,morning,1,0,0,0.0
-31,M,general,47,4,0,Saturday,morning,0,0,0,0.0
-45,F,specialist,3,2,0,Thursday,morning,1,0,0,0.0
-46,F,general,0,3,0,Saturday,afternoon,0,0,0,0.0
-51,M,specialist,39,1,0,Friday,afternoon,1,0,0,0.0
-19,M,follow_up,8,4,1,Friday,afternoon,0,0,1,0.25
-86,M,vaccination,21,2,0,Wednesday,afternoon,0,0,0,0.0
-60,M,follow_up,5,1,0,Friday,afternoon,1,0,0,0.0
-79,M,specialist,17,1,0,Thursday,afternoon,1,0,0,0.0
-45,M,general,50,2,0,Tuesday,afternoon,0,0,1,0.0
-72,M,general,14,4,1,Tuesday,morning,1,0,0,0.25
-65,M,general,24,3,1,Tuesday,morning,1,0,0,0.3333333333333333
-77,M,general,43,3,0,Friday,afternoon,1,0,0,0.0
-25,M,general,32,3,0,Thursday,evening,0,0,1,0.0
-48,M,general,22,2,0,Wednesday,evening,1,0,0,0.0
-84,M,dental,11,4,1,Monday,morning,0,0,0,0.25
-28,M,specialist,8,1,0,Tuesday,morning,1,0,0,0.0
-21,M,dental,10,3,0,Tuesday,afternoon,0,0,0,0.0
-27,F,general,38,3,1,Saturday,evening,1,0,0,0.3333333333333333
-89,F,general,18,1,0,Saturday,morning,1,0,0,0.0
-57,M,vaccination,15,1,0,Friday,morning,0,0,0,0.0
-16,M,specialist,40,4,1,Thursday,afternoon,1,0,0,0.25
-4,M,specialist,27,5,1,Monday,morning,1,0,0,0.2
-11,F,follow_up,39,7,1,Tuesday,morning,0,0,1,0.14285714285714285
-42,F,specialist,32,4,0,Saturday,afternoon,1,0,0,0.0
-44,M,follow_up,42,3,0,Tuesday,morning,1,0,0,0.0
-15,F,follow_up,59,2,1,Monday,afternoon,0,0,1,0.5
-1,M,dental,36,2,0,Monday,morning,0,0,1,0.0
-56,M,general,54,2,0,Thursday,afternoon,1,0,0,0.0
-68,M,follow_up,59,2,0,Monday,morning,1,0,1,0.0
-45,F,dental,54,4,0,Thursday,afternoon,1,0,1,0.0
-14,F,follow_up,44,3,0,Wednesday,afternoon,1,0,1,0.0
-45,M,specialist,23,3,0,Monday,morning,0,0,0,0.0
-89,F,general,3,1,0,Saturday,afternoon,1,0,0,0.0
-46,M,general,24,4,2,Tuesday,morning,0,0,1,0.5
-5,F,general,33,3,1,Thursday,morning,1,0,0,0.3333333333333333
-36,M,general,12,4,1,Wednesday,evening,1,0,0,0.25
-49,F,follow_up,15,6,2,Monday,morning,1,0,0,0.3333333333333333
-26,M,general,58,4,0,Thursday,morning,0,0,0,0.0
-84,F,general,44,3,1,Tuesday,evening,1,0,0,0.3333333333333333
-86,M,dental,57,5,0,Wednesday,morning,1,0,0,0.0
-4,M,specialist,7,3,0,Friday,evening,1,0,0,0.0
-86,F,specialist,59,1,0,Wednesday,morning,0,0,1,0.0
-86,F,specialist,55,6,0,Tuesday,morning,0,0,1,0.0
-42,F,general,16,3,1,Thursday,afternoon,1,0,1,0.3333333333333333
-81,M,general,36,3,0,Saturday,morning,1,0,1,0.0
-40,F,general,24,3,1,Tuesday,evening,1,0,0,0.3333333333333333
-60,F,dental,46,3,1,Wednesday,evening,1,0,0,0.3333333333333333
-39,F,general,29,3,0,Monday,evening,1,0,1,0.0
-50,F,general,54,4,0,Monday,afternoon,1,0,1,0.0
-89,F,specialist,47,1,0,Tuesday,morning,1,0,0,0.0
-4,M,specialist,9,3,0,Saturday,morning,0,0,0,0.0
-31,M,follow_up,3,2,0,Friday,afternoon,0,0,0,0.0
-51,M,general,60,4,1,Wednesday,morning,0,0,1,0.25
-85,F,general,10,3,0,Tuesday,afternoon,0,0,0,0.0
-2,F,general,58,0,0,Wednesday,afternoon,0,1,1,0.0
-63,F,general,59,1,0,Monday,afternoon,1,0,0,0.0
-11,M,follow_up,7,6,1,Monday,morning,1,0,0,0.16666666666666666
-15,F,general,37,2,0,Friday,morning,1,0,0,0.0
-84,F,specialist,32,1,0,Wednesday,morning,1,0,1,0.0
-75,M,dental,5,2,0,Friday,afternoon,1,0,0,0.0
-18,M,vaccination,42,4,0,Wednesday,morning,0,0,1,0.0
-60,F,follow_up,12,2,0,Tuesday,morning,1,0,0,0.0
-67,F,dental,20,2,0,Friday,afternoon,1,0,0,0.0
-80,M,vaccination,22,2,0,Saturday,morning,1,0,0,0.0
-47,M,specialist,4,0,0,Monday,morning,1,1,0,0.0
-78,F,general,37,4,0,Friday,afternoon,1,0,0,0.0
-83,F,specialist,59,1,0,Monday,morning,1,0,0,0.0
-9,F,follow_up,30,4,1,Tuesday,morning,1,0,0,0.25
-47,F,dental,43,2,0,Saturday,morning,0,0,0,0.0
-71,M,follow_up,54,3,0,Wednesday,afternoon,1,0,0,0.0
-11,F,vaccination,15,5,1,Wednesday,evening,1,0,0,0.2
-16,F,general,5,3,1,Friday,morning,0,0,0,0.3333333333333333
-86,F,vaccination,11,6,0,Monday,morning,0,0,0,0.0
-70,F,follow_up,17,2,0,Wednesday,morning,1,0,0,0.0
-37,M,specialist,15,1,0,Tuesday,afternoon,1,0,0,0.0
-50,F,general,43,7,1,Tuesday,morning,1,0,0,0.14285714285714285
-35,M,dental,53,5,0,Wednesday,afternoon,1,0,0,0.0
-77,F,general,26,5,0,Tuesday,morning,0,0,0,0.0
-37,M,dental,35,5,0,Monday,afternoon,1,0,0,0.0
-4,F,general,1,2,0,Thursday,afternoon,1,0,1,0.0
-38,F,dental,45,4,2,Tuesday,morning,0,0,1,0.5
-71,M,specialist,40,5,1,Monday,evening,0,0,0,0.2
-18,M,general,2,3,0,Friday,morning,1,0,0,0.0
-68,M,general,56,2,0,Monday,morning,1,0,0,0.0
-40,M,vaccination,51,1,0,Tuesday,morning,1,0,1,0.0
-31,M,general,14,5,0,Wednesday,evening,1,0,1,0.0
-66,F,specialist,11,2,1,Thursday,morning,0,0,0,0.5
-69,F,dental,39,1,0,Friday,evening,1,0,1,0.0
-28,F,general,30,4,2,Wednesday,evening,1,0,1,0.5
-29,F,vaccination,43,4,1,Wednesday,afternoon,1,0,0,0.25
-43,F,specialist,60,3,0,Wednesday,afternoon,1,0,0,0.0
-27,F,dental,33,6,3,Monday,morning,1,0,1,0.5
-11,F,general,13,2,0,Saturday,afternoon,0,0,0,0.0
-77,M,vaccination,29,4,1,Tuesday,afternoon,1,0,0,0.25
-45,F,dental,55,2,0,Thursday,morning,1,0,0,0.0
-15,F,vaccination,13,4,0,Wednesday,afternoon,1,0,0,0.0
-41,M,dental,45,1,0,Saturday,morning,1,0,0,0.0
-82,M,specialist,51,4,0,Wednesday,evening,1,0,0,0.0
-25,M,follow_up,56,6,0,Thursday,evening,1,0,0,0.0
-66,F,specialist,37,3,0,Friday,morning,1,0,1,0.0
-42,F,general,21,5,0,Thursday,morning,1,0,0,0.0
-16,F,vaccination,21,4,1,Saturday,afternoon,1,0,1,0.25
-27,M,follow_up,44,4,0,Friday,afternoon,0,0,1,0.0
-87,F,specialist,32,3,0,Thursday,morning,1,0,1,0.0
-11,F,follow_up,25,0,0,Thursday,afternoon,1,1,0,0.0
-6,F,specialist,24,3,0,Wednesday,morning,1,0,0,0.0
-30,F,general,7,3,1,Thursday,morning,0,0,1,0.3333333333333333
-65,F,dental,27,2,0,Saturday,evening,1,0,1,0.0
-4,F,general,59,2,1,Friday,afternoon,1,0,1,0.5
-72,M,specialist,28,3,0,Wednesday,afternoon,1,0,1,0.0
-67,F,specialist,35,3,0,Thursday,morning,1,0,0,0.0
-60,F,general,45,3,0,Friday,afternoon,1,0,1,0.0
-38,M,dental,51,1,0,Tuesday,morning,1,0,0,0.0
-54,F,dental,57,4,0,Thursday,afternoon,1,0,1,0.0
-72,M,vaccination,6,4,0,Monday,afternoon,1,0,0,0.0
-15,F,specialist,0,2,1,Wednesday,morning,1,0,1,0.5
-53,M,follow_up,29,1,0,Friday,morning,0,0,0,0.0
-25,F,specialist,31,5,1,Wednesday,afternoon,0,0,0,0.2
-64,M,specialist,21,4,1,Tuesday,morning,1,0,1,0.25
-68,M,general,53,2,0,Monday,morning,0,0,0,0.0
-56,F,specialist,57,3,0,Tuesday,afternoon,1,0,0,0.0
-25,M,specialist,23,4,1,Tuesday,morning,1,0,1,0.25
-82,F,specialist,24,1,0,Tuesday,afternoon,1,0,0,0.0
-26,M,general,47,2,0,Thursday,afternoon,1,0,1,0.0
-63,M,dental,12,1,0,Saturday,morning,1,0,0,0.0
-57,F,general,32,1,0,Wednesday,morning,1,0,0,0.0
-77,F,dental,31,4,0,Saturday,evening,1,0,0,0.0
-39,F,specialist,12,1,0,Friday,morning,1,0,0,0.0
-71,F,specialist,43,4,1,Saturday,morning,1,0,0,0.25
-45,M,vaccination,2,1,0,Wednesday,morning,1,0,1,0.0
-87,F,dental,24,2,0,Tuesday,afternoon,1,0,0,0.0
-11,F,specialist,52,5,0,Friday,morning,1,0,1,0.0
-70,F,follow_up,17,2,0,Saturday,afternoon,0,0,1,0.0
-33,F,follow_up,27,6,2,Monday,afternoon,1,0,0,0.3333333333333333
-76,F,general,1,2,0,Wednesday,morning,0,0,1,0.0
-12,M,general,19,3,1,Saturday,afternoon,0,0,0,0.3333333333333333
-72,M,general,9,2,0,Saturday,afternoon,1,0,0,0.0
-28,M,general,38,1,0,Friday,morning,1,0,0,0.0
-77,F,vaccination,14,2,0,Thursday,evening,1,0,0,0.0
-37,M,general,10,1,0,Friday,afternoon,0,0,0,0.0
-31,F,follow_up,5,2,0,Monday,morning,1,0,0,0.0
-67,M,vaccination,39,2,0,Tuesday,morning,1,0,0,0.0
-66,M,specialist,42,3,0,Tuesday,morning,1,0,0,0.0
-6,F,general,11,0,0,Monday,afternoon,1,1,1,0.0
-42,M,dental,26,6,3,Thursday,afternoon,1,0,1,0.5
-56,M,general,28,2,1,Wednesday,morning,1,0,1,0.5
-53,M,general,33,4,1,Thursday,morning,1,0,0,0.25
-9,M,general,50,4,2,Tuesday,morning,1,0,0,0.5
-76,F,general,24,2,0,Wednesday,morning,1,0,0,0.0
-69,F,follow_up,31,2,0,Saturday,morning,1,0,0,0.0
-56,M,specialist,35,2,0,Friday,morning,0,0,1,0.0
-41,F,general,54,1,0,Friday,evening,0,0,1,0.0
-48,M,specialist,36,1,0,Thursday,afternoon,0,0,1,0.0
-9,M,general,22,7,3,Tuesday,evening,1,0,1,0.42857142857142855
-34,F,general,39,1,0,Thursday,morning,1,0,0,0.0
-53,F,follow_up,16,1,0,Saturday,morning,1,0,0,0.0
-53,M,general,49,3,0,Saturday,morning,0,0,0,0.0
-29,F,specialist,53,1,0,Tuesday,morning,1,0,0,0.0
-56,F,specialist,23,1,0,Wednesday,evening,1,0,0,0.0
-3,F,dental,5,2,0,Thursday,morning,1,0,0,0.0
-74,M,general,22,2,1,Saturday,morning,1,0,0,0.5
-68,F,dental,32,6,1,Monday,afternoon,1,0,1,0.16666666666666666
-26,M,general,27,3,1,Friday,afternoon,1,0,1,0.3333333333333333
-23,M,general,44,3,1,Saturday,afternoon,1,0,1,0.3333333333333333
-78,M,vaccination,15,1,0,Saturday,morning,0,0,0,0.0
-10,M,general,22,2,0,Saturday,afternoon,0,0,1,0.0
-1,M,vaccination,58,2,0,Monday,evening,1,0,1,0.0
-21,M,follow_up,9,6,1,Thursday,morning,1,0,0,0.16666666666666666
-65,F,follow_up,59,5,1,Wednesday,evening,1,0,0,0.2
-6,F,follow_up,8,2,0,Thursday,morning,1,0,0,0.0
-86,F,vaccination,7,2,0,Wednesday,morning,1,0,0,0.0
-49,M,dental,12,7,3,Thursday,morning,0,0,0,0.42857142857142855
-79,F,follow_up,33,2,0,Thursday,morning,1,0,0,0.0
-18,F,dental,56,4,0,Saturday,evening,0,0,0,0.0
-41,M,follow_up,33,4,0,Monday,morning,1,0,0,0.0
-5,M,dental,55,1,0,Friday,morning,0,0,1,0.0
-12,F,dental,42,3,0,Friday,afternoon,1,0,1,0.0
-63,M,dental,5,3,0,Wednesday,morning,1,0,0,0.0
-41,F,general,0,0,0,Tuesday,morning,0,1,1,0.0
-18,F,follow_up,56,4,0,Monday,evening,0,0,1,0.0
-88,F,specialist,28,1,0,Wednesday,morning,1,0,1,0.0
-22,M,specialist,47,1,0,Friday,afternoon,1,0,0,0.0
-9,F,specialist,33,4,0,Tuesday,afternoon,1,0,1,0.0
-47,F,dental,37,3,1,Tuesday,morning,0,0,1,0.3333333333333333
-75,F,specialist,52,3,1,Wednesday,morning,1,0,0,0.3333333333333333
-41,F,vaccination,54,4,0,Thursday,afternoon,0,0,0,0.0
-1,M,dental,4,7,1,Tuesday,morning,0,0,0,0.14285714285714285
-15,M,follow_up,11,1,0,Tuesday,afternoon,1,0,0,0.0
-50,F,vaccination,36,1,0,Wednesday,morning,1,0,0,0.0
-2,M,general,40,4,0,Saturday,morning,1,0,0,0.0
-82,M,vaccination,39,0,0,Monday,afternoon,1,1,1,0.0
-3,F,follow_up,22,7,2,Wednesday,evening,1,0,0,0.2857142857142857
-18,F,general,29,1,0,Monday,evening,1,0,1,0.0
-20,M,general,46,3,0,Monday,afternoon,0,0,1,0.0
-11,F,general,59,7,1,Friday,afternoon,0,0,1,0.14285714285714285
-41,F,dental,35,7,0,Tuesday,morning,0,0,0,0.0
-8,F,dental,33,5,2,Wednesday,morning,0,0,1,0.4
-84,F,general,44,2,0,Saturday,morning,0,0,0,0.0
-52,F,specialist,35,2,1,Thursday,morning,1,0,1,0.5
-47,M,dental,15,0,0,Tuesday,evening,0,1,0,0.0
-71,M,general,6,6,1,Wednesday,evening,1,0,0,0.16666666666666666
-62,F,specialist,21,3,0,Friday,morning,1,0,0,0.0
-55,M,general,19,1,0,Thursday,morning,1,0,0,0.0
-83,F,vaccination,29,0,0,Tuesday,afternoon,1,1,0,0.0
-36,F,general,54,2,0,Tuesday,morning,0,0,0,0.0
-17,F,vaccination,49,3,0,Wednesday,morning,0,0,1,0.0
-72,M,specialist,43,3,0,Saturday,afternoon,1,0,0,0.0
-80,F,specialist,3,3,0,Saturday,afternoon,0,0,0,0.0
-88,F,specialist,35,1,0,Tuesday,afternoon,0,0,0,0.0
-31,F,general,58,5,0,Wednesday,afternoon,1,0,0,0.0
-48,M,follow_up,8,9,2,Wednesday,morning,0,0,0,0.2222222222222222
-57,F,follow_up,15,5,1,Saturday,morning,1,0,0,0.2
-6,F,vaccination,45,1,0,Tuesday,morning,1,0,1,0.0
-56,M,follow_up,54,5,0,Saturday,morning,1,0,0,0.0
-45,F,specialist,11,2,0,Friday,afternoon,0,0,0,0.0
-21,F,specialist,4,4,1,Tuesday,afternoon,1,0,0,0.25
-42,M,follow_up,50,2,0,Friday,afternoon,1,0,0,0.0
-62,M,specialist,57,1,0,Friday,morning,0,0,0,0.0
-60,M,follow_up,30,2,0,Monday,morning,1,0,0,0.0
-57,F,general,22,4,0,Saturday,morning,0,0,0,0.0
-89,F,follow_up,31,4,0,Thursday,afternoon,1,0,0,0.0
-72,M,dental,21,4,1,Thursday,morning,0,0,0,0.25
-72,M,vaccination,19,4,0,Saturday,morning,1,0,0,0.0
-40,M,dental,32,4,1,Tuesday,morning,1,0,0,0.25
-39,F,general,36,1,0,Thursday,morning,0,0,1,0.0
-59,F,dental,50,5,3,Saturday,afternoon,0,0,1,0.6
-8,F,general,7,6,0,Wednesday,morning,1,0,0,0.0
-26,F,specialist,52,1,0,Thursday,evening,0,0,0,0.0
-58,F,general,22,4,0,Friday,morning,1,0,0,0.0
-26,M,dental,14,5,1,Friday,morning,1,0,1,0.2
-61,F,dental,55,5,0,Friday,morning,0,0,1,0.0
-64,F,general,24,3,0,Wednesday,morning,1,0,0,0.0
-1,F,general,17,3,0,Saturday,morning,1,0,0,0.0
-75,F,vaccination,13,4,0,Monday,afternoon,1,0,0,0.0
-14,M,general,40,1,0,Friday,evening,1,0,0,0.0
-52,M,general,19,3,0,Friday,evening,0,0,1,0.0
-66,M,specialist,5,5,1,Thursday,afternoon,1,0,1,0.2
-77,F,general,14,5,0,Wednesday,morning,1,0,0,0.0
-41,F,general,3,3,1,Saturday,afternoon,1,0,0,0.3333333333333333
-4,M,specialist,2,3,1,Thursday,afternoon,1,0,0,0.3333333333333333
-71,M,vaccination,43,1,0,Saturday,morning,0,0,0,0.0
-43,M,general,11,2,0,Wednesday,afternoon,1,0,0,0.0
-9,F,vaccination,40,3,1,Saturday,evening,0,0,1,0.3333333333333333
-45,M,vaccination,34,3,1,Thursday,afternoon,1,0,0,0.3333333333333333
-10,F,specialist,32,3,1,Thursday,evening,1,0,1,0.3333333333333333
-18,M,general,53,4,0,Tuesday,afternoon,0,0,0,0.0
-12,M,general,46,2,0,Wednesday,morning,1,0,1,0.0
-85,F,follow_up,13,3,0,Monday,afternoon,1,0,0,0.0
-26,F,specialist,58,5,0,Monday,morning,0,0,1,0.0
-42,F,dental,37,4,1,Thursday,afternoon,1,0,1,0.25
-79,F,general,7,2,0,Thursday,afternoon,1,0,0,0.0
-63,F,general,6,3,0,Monday,morning,1,0,0,0.0
-67,M,dental,46,1,0,Wednesday,afternoon,0,0,1,0.0
-64,F,dental,14,3,1,Wednesday,evening,1,0,0,0.3333333333333333
-83,M,specialist,59,2,0,Tuesday,morning,1,0,0,0.0
-14,F,general,42,4,1,Friday,afternoon,0,0,1,0.25
-73,M,follow_up,20,2,0,Thursday,afternoon,1,0,0,0.0
-15,F,follow_up,44,5,1,Tuesday,afternoon,1,0,1,0.2
-51,M,vaccination,11,2,0,Friday,afternoon,0,0,0,0.0
-36,F,follow_up,29,3,0,Wednesday,afternoon,0,0,0,0.0
-43,M,general,53,1,0,Monday,afternoon,1,0,0,0.0
-34,M,specialist,23,0,0,Friday,afternoon,1,1,1,0.0
-70,M,general,56,3,0,Tuesday,afternoon,1,0,0,0.0
-38,M,general,29,1,0,Wednesday,morning,0,0,1,0.0
-83,F,vaccination,16,1,0,Friday,morning,1,0,0,0.0
-59,F,specialist,0,2,0,Friday,afternoon,1,0,0,0.0
-89,M,general,54,5,1,Tuesday,morning,1,0,0,0.2
-14,F,specialist,5,4,1,Thursday,morning,1,0,0,0.25
-56,M,dental,6,6,0,Tuesday,afternoon,1,0,0,0.0
-51,F,general,9,4,1,Monday,evening,1,0,0,0.25
-82,M,follow_up,52,1,0,Friday,morning,0,0,0,0.0
-29,M,specialist,32,0,0,Saturday,morning,1,1,0,0.0
-25,M,follow_up,4,6,2,Monday,morning,1,0,0,0.3333333333333333
-38,F,general,38,0,0,Wednesday,morning,1,1,0,0.0
-68,M,dental,53,1,0,Monday,morning,1,0,1,0.0
-21,M,general,3,2,0,Thursday,evening,1,0,0,0.0
-66,M,dental,33,6,0,Wednesday,morning,1,0,0,0.0
-8,F,general,5,6,1,Thursday,afternoon,1,0,0,0.16666666666666666
-39,M,general,21,4,0,Wednesday,afternoon,1,0,0,0.0
-7,F,general,43,1,0,Thursday,morning,1,0,1,0.0
-4,F,general,49,5,1,Friday,afternoon,1,0,1,0.2
-13,F,vaccination,39,3,0,Saturday,morning,1,0,0,0.0
-33,F,general,15,3,1,Friday,afternoon,0,0,0,0.3333333333333333
-82,M,general,50,3,0,Wednesday,morning,1,0,1,0.0
-69,F,general,60,2,0,Thursday,afternoon,1,0,1,0.0
-56,F,vaccination,34,3,0,Thursday,morning,1,0,0,0.0
-71,M,general,22,1,0,Friday,morning,1,0,0,0.0
-39,M,general,53,1,0,Friday,morning,1,0,0,0.0
-8,M,dental,16,3,0,Friday,afternoon,0,0,0,0.0
-48,F,general,15,2,0,Wednesday,morning,1,0,0,0.0
-40,F,specialist,56,4,0,Tuesday,evening,0,0,1,0.0
-59,F,general,50,0,0,Friday,morning,1,1,0,0.0
-85,M,general,54,4,0,Friday,morning,0,0,1,0.0
-55,M,general,47,2,0,Thursday,morning,1,0,0,0.0
-56,F,general,7,4,0,Tuesday,morning,0,0,0,0.0
-64,F,general,59,4,0,Wednesday,morning,1,0,0,0.0
-28,F,vaccination,15,2,0,Friday,afternoon,0,0,1,0.0
-86,M,dental,36,3,0,Tuesday,morning,1,0,0,0.0
-24,F,follow_up,28,3,0,Monday,morning,1,0,0,0.0
-6,F,dental,15,3,1,Saturday,afternoon,0,0,0,0.3333333333333333
-50,F,vaccination,36,2,1,Thursday,afternoon,1,0,1,0.5
-36,M,specialist,25,1,0,Wednesday,morning,0,0,1,0.0
-87,M,follow_up,52,5,1,Saturday,afternoon,0,0,0,0.2
-10,M,general,31,1,0,Thursday,evening,0,0,0,0.0
-70,M,specialist,6,2,0,Saturday,evening,0,0,0,0.0
-46,F,specialist,49,2,0,Friday,evening,1,0,0,0.0
-80,M,specialist,11,2,0,Thursday,morning,1,0,0,0.0
-35,F,follow_up,48,2,0,Thursday,evening,0,0,0,0.0
-61,M,dental,38,2,0,Thursday,afternoon,1,0,0,0.0
-61,M,general,16,1,0,Thursday,morning,1,0,0,0.0
-84,M,follow_up,15,1,0,Thursday,afternoon,1,0,0,0.0
-27,F,dental,14,4,0,Monday,morning,1,0,0,0.0
-77,F,vaccination,44,4,1,Tuesday,afternoon,1,0,1,0.25
-76,F,follow_up,8,5,0,Saturday,afternoon,0,0,0,0.0
-65,F,specialist,0,3,0,Saturday,morning,0,0,0,0.0
-49,F,follow_up,51,2,0,Thursday,afternoon,0,0,1,0.0
-37,F,vaccination,58,4,0,Thursday,morning,1,0,1,0.0
-53,M,general,7,3,0,Saturday,morning,1,0,0,0.0
-6,M,general,16,2,0,Monday,afternoon,1,0,0,0.0
-52,M,dental,26,4,0,Wednesday,afternoon,1,0,1,0.0
-11,F,vaccination,35,2,0,Thursday,afternoon,0,0,0,0.0
-49,M,dental,32,3,1,Wednesday,morning,1,0,1,0.3333333333333333
-5,F,follow_up,33,3,1,Tuesday,afternoon,0,0,0,0.3333333333333333
-52,F,follow_up,6,3,0,Wednesday,evening,1,0,0,0.0
-52,M,specialist,45,3,0,Friday,morning,0,0,0,0.0
-50,F,general,54,5,1,Monday,morning,0,0,1,0.2
-33,F,vaccination,32,2,0,Monday,morning,1,0,0,0.0
-77,M,general,19,2,0,Thursday,afternoon,0,0,0,0.0
-10,M,dental,32,5,0,Thursday,morning,1,0,0,0.0
-71,M,general,2,2,0,Wednesday,afternoon,1,0,0,0.0
-16,M,specialist,60,4,0,Saturday,morning,1,0,0,0.0
-49,F,general,53,4,0,Tuesday,evening,1,0,0,0.0
-30,F,follow_up,5,2,0,Friday,evening,1,0,1,0.0
-19,M,general,14,5,1,Saturday,morning,1,0,0,0.2
-23,F,general,20,4,1,Tuesday,morning,1,0,0,0.25
-18,F,vaccination,16,5,0,Monday,morning,1,0,0,0.0
-61,M,follow_up,53,3,0,Friday,afternoon,1,0,0,0.0
-2,M,general,14,3,0,Thursday,evening,0,0,0,0.0
-74,M,specialist,40,2,0,Friday,afternoon,1,0,1,0.0
-34,M,specialist,59,7,2,Friday,afternoon,1,0,1,0.2857142857142857
-33,F,general,15,3,0,Wednesday,morning,0,0,0,0.0
-42,M,general,11,2,0,Monday,morning,1,0,0,0.0
-5,M,general,4,1,0,Thursday,morning,1,0,1,0.0
-44,F,specialist,0,2,0,Thursday,afternoon,0,0,0,0.0
-84,M,general,57,4,1,Thursday,afternoon,1,0,0,0.25
-86,F,general,1,0,0,Saturday,morning,1,1,0,0.0
-5,M,vaccination,7,0,0,Saturday,morning,1,1,0,0.0
-57,F,general,12,0,0,Tuesday,morning,0,1,1,0.0
-87,F,follow_up,30,6,0,Friday,afternoon,0,0,0,0.0
-42,M,general,26,3,0,Tuesday,morning,0,0,0,0.0
-17,M,specialist,36,2,0,Saturday,morning,1,0,0,0.0
-75,M,vaccination,42,3,0,Monday,afternoon,1,0,0,0.0
-53,M,general,9,3,0,Thursday,afternoon,1,0,0,0.0
-23,F,specialist,21,5,0,Friday,afternoon,1,0,1,0.0
-78,M,follow_up,45,5,1,Tuesday,afternoon,1,0,0,0.2
-11,M,vaccination,20,1,0,Tuesday,afternoon,0,0,1,0.0
-52,F,general,44,0,0,Saturday,afternoon,0,1,1,0.0
-72,M,vaccination,57,6,1,Tuesday,afternoon,0,0,0,0.16666666666666666
-33,M,general,49,2,0,Tuesday,morning,1,0,0,0.0
-55,M,follow_up,16,1,0,Wednesday,evening,0,0,0,0.0
-6,M,general,2,4,0,Saturday,afternoon,0,0,0,0.0
-27,F,general,7,3,1,Thursday,morning,0,0,1,0.3333333333333333
-45,F,specialist,38,0,0,Wednesday,afternoon,1,1,1,0.0
-15,M,specialist,35,3,1,Wednesday,afternoon,1,0,1,0.3333333333333333
-65,M,general,28,0,0,Wednesday,morning,1,1,0,0.0
-9,F,general,41,4,0,Wednesday,afternoon,1,0,1,0.0
-2,M,follow_up,17,3,0,Tuesday,afternoon,1,0,0,0.0
-29,F,vaccination,38,3,1,Thursday,morning,1,0,0,0.3333333333333333
-67,F,vaccination,56,0,0,Saturday,morning,0,1,1,0.0
-3,M,follow_up,28,1,0,Monday,morning,1,0,0,0.0
-48,F,vaccination,22,2,0,Friday,morning,1,0,0,0.0
-77,M,follow_up,42,11,2,Monday,afternoon,0,0,0,0.18181818181818182
-50,F,general,15,5,0,Wednesday,evening,1,0,0,0.0
-42,F,general,20,4,0,Friday,morning,1,0,0,0.0
-12,M,follow_up,14,0,0,Wednesday,morning,1,1,0,0.0
-73,F,follow_up,18,3,1,Wednesday,morning,1,0,1,0.3333333333333333
-81,M,specialist,7,3,1,Saturday,morning,1,0,0,0.3333333333333333
-84,M,specialist,2,1,0,Monday,morning,1,0,0,0.0
-83,F,general,53,1,0,Tuesday,morning,1,0,0,0.0
-25,M,vaccination,28,2,0,Tuesday,afternoon,1,0,0,0.0
-65,M,specialist,44,0,0,Monday,morning,1,1,1,0.0
-22,F,vaccination,10,5,0,Saturday,afternoon,1,0,0,0.0
-10,F,follow_up,44,3,0,Friday,afternoon,1,0,0,0.0
-33,M,dental,9,3,0,Friday,afternoon,1,0,0,0.0
-34,F,specialist,59,3,0,Saturday,afternoon,1,0,0,0.0
-8,F,dental,41,2,0,Monday,afternoon,1,0,0,0.0
-28,M,follow_up,5,0,0,Saturday,afternoon,1,1,1,0.0
-13,M,vaccination,0,6,0,Saturday,morning,1,0,0,0.0
-48,F,specialist,6,3,0,Tuesday,afternoon,1,0,0,0.0
-9,F,vaccination,3,4,1,Thursday,morning,1,0,1,0.25
-16,M,vaccination,36,3,1,Thursday,afternoon,0,0,0,0.3333333333333333
-37,M,general,55,5,0,Wednesday,evening,0,0,1,0.0
-14,M,follow_up,51,3,0,Thursday,morning,0,0,1,0.0
-52,F,dental,18,6,1,Saturday,afternoon,1,0,0,0.16666666666666666
-58,M,vaccination,60,2,0,Wednesday,afternoon,1,0,1,0.0
-15,M,follow_up,48,2,0,Saturday,morning,0,0,1,0.0
-83,F,general,37,2,0,Thursday,afternoon,0,0,0,0.0
-56,F,vaccination,34,3,1,Tuesday,morning,1,0,0,0.3333333333333333
-48,M,specialist,59,4,0,Saturday,morning,1,0,0,0.0
-4,M,general,59,2,0,Tuesday,afternoon,0,0,1,0.0
-9,M,vaccination,35,5,0,Friday,afternoon,1,0,0,0.0
-23,F,general,16,0,0,Saturday,morning,1,1,1,0.0
-16,M,general,12,1,0,Monday,morning,1,0,0,0.0
-79,M,general,24,2,0,Saturday,afternoon,1,0,0,0.0
-69,M,vaccination,31,4,2,Monday,morning,0,0,1,0.5
-14,M,follow_up,53,2,0,Wednesday,afternoon,1,0,1,0.0
-45,M,specialist,44,2,0,Wednesday,morning,1,0,0,0.0
-81,F,dental,27,2,0,Saturday,morning,1,0,0,0.0
-63,F,follow_up,53,2,0,Friday,morning,1,0,0,0.0
-23,M,general,45,2,0,Wednesday,afternoon,0,0,0,0.0
-75,M,specialist,2,2,0,Friday,morning,0,0,0,0.0
-65,M,specialist,28,4,0,Friday,evening,1,0,1,0.0
-56,M,specialist,37,3,0,Friday,morning,0,0,0,0.0
-14,M,specialist,11,2,0,Saturday,evening,1,0,1,0.0
-84,F,vaccination,44,2,0,Tuesday,morning,1,0,0,0.0
-74,F,dental,15,3,1,Monday,morning,0,0,0,0.3333333333333333
-84,F,general,55,4,1,Tuesday,evening,1,0,1,0.25
-33,M,dental,9,6,0,Tuesday,morning,0,0,1,0.0
-43,F,general,47,3,0,Saturday,evening,1,0,0,0.0
-86,M,specialist,23,1,0,Monday,morning,1,0,0,0.0
-55,F,dental,25,1,0,Saturday,afternoon,1,0,1,0.0
-21,F,general,41,3,0,Thursday,morning,1,0,0,0.0
-66,F,dental,1,4,1,Tuesday,morning,1,0,0,0.25
-54,F,general,16,2,0,Wednesday,morning,0,0,0,0.0
-10,M,general,52,5,0,Saturday,evening,0,0,0,0.0
-78,F,follow_up,9,2,0,Friday,afternoon,1,0,1,0.0
-21,M,vaccination,23,2,0,Thursday,morning,0,0,1,0.0
-24,F,general,22,4,0,Saturday,morning,1,0,1,0.0
-29,F,specialist,42,4,1,Tuesday,afternoon,1,0,0,0.25
-16,M,dental,17,8,0,Thursday,morning,1,0,0,0.0
-80,M,general,60,7,0,Thursday,morning,1,0,0,0.0
-84,M,general,13,6,1,Wednesday,morning,1,0,0,0.16666666666666666
-85,M,general,1,6,0,Thursday,afternoon,1,0,0,0.0
-68,M,general,16,2,0,Wednesday,afternoon,1,0,0,0.0
-81,F,specialist,27,6,0,Monday,morning,1,0,0,0.0
-27,M,vaccination,16,4,0,Friday,morning,0,0,0,0.0
-40,F,general,57,4,0,Friday,afternoon,1,0,1,0.0
-58,F,general,15,1,0,Thursday,morning,1,0,0,0.0
-59,M,follow_up,17,5,0,Friday,afternoon,1,0,0,0.0
-65,F,dental,34,2,0,Thursday,morning,1,0,0,0.0
-49,F,general,34,4,0,Wednesday,afternoon,0,0,1,0.0
-53,M,general,30,4,1,Tuesday,morning,1,0,0,0.25
-29,F,specialist,17,2,0,Thursday,afternoon,0,0,0,0.0
-12,M,general,35,2,0,Thursday,morning,1,0,0,0.0
-17,M,specialist,6,2,0,Friday,morning,1,0,0,0.0
-78,F,dental,29,5,0,Thursday,afternoon,1,0,0,0.0
-80,F,general,36,4,1,Thursday,afternoon,1,0,0,0.25
-83,M,general,58,3,1,Monday,afternoon,1,0,0,0.3333333333333333
-81,M,general,48,0,0,Friday,morning,1,1,0,0.0
-11,M,general,7,5,1,Saturday,afternoon,1,0,0,0.2
-49,F,general,53,2,0,Monday,afternoon,1,0,0,0.0
+appointment_id,age,gender,appointment_type,days_before_appointment,previous_appointments,previous_no_shows,weekday,appointment_time,reminder_sent,new_patient,no_show,previous_no_show_rate
+61,65,Male,Follow-up,5,0,0,Friday,16:00-18:00,0,1,0,0.0
+2569,31,Female,New Consultation,15,11,1,Thursday,08:00-10:00,1,0,1,0.09090909090909091
+939,51,Female,New Consultation,4,0,0,Friday,14:00-16:00,1,1,0,0.0
+1997,30,Male,Procedure,4,0,0,Friday,16:00-18:00,0,1,0,0.0
+1390,32,Female,Follow-up,17,0,0,Monday,14:00-16:00,1,1,0,0.0
+2862,36,Female,Procedure,15,9,0,Friday,14:00-16:00,1,0,0,0.0
+2632,30,Female,Routine Check,8,6,1,Thursday,14:00-16:00,1,0,0,0.16666666666666666
+971,36,Female,Routine Check,16,4,1,Monday,16:00-18:00,1,0,0,0.25
+2555,46,Female,Urgent Visit,5,0,0,Thursday,10:00-12:00,1,1,0,0.0
+1330,46,Male,Follow-up,17,9,1,Monday,16:00-18:00,1,0,1,0.1111111111111111
+327,34,Male,New Consultation,10,6,0,Monday,12:00-14:00,1,0,0,0.0
+1359,34,Male,Follow-up,0,8,1,Monday,14:00-16:00,1,0,0,0.125
+2186,25,Female,Procedure,4,1,1,Tuesday,08:00-10:00,1,0,0,1.0
+601,54,Male,Urgent Visit,1,0,0,Tuesday,12:00-14:00,1,1,0,0.0
+520,48,Male,Follow-up,6,1,0,Saturday,08:00-10:00,1,0,0,0.0
+1005,40,Female,New Consultation,8,0,0,Wednesday,16:00-18:00,0,1,0,0.0
+610,58,Male,Follow-up,4,5,0,Thursday,10:00-12:00,1,0,0,0.0
+1530,51,Female,New Consultation,3,4,1,Tuesday,14:00-16:00,0,0,1,0.25
+432,59,Female,New Consultation,3,3,0,Thursday,14:00-16:00,1,0,1,0.0
+858,12,Female,Follow-up,13,3,0,Monday,16:00-18:00,1,0,0,0.0
+2778,30,Female,Follow-up,11,11,1,Monday,10:00-12:00,0,0,0,0.09090909090909091
+2881,45,Female,Follow-up,6,0,0,Monday,14:00-16:00,1,1,0,0.0
+342,45,Female,New Consultation,6,13,0,Friday,18:00-20:00,0,0,1,0.0
+1830,32,Male,Follow-up,11,0,0,Monday,16:00-18:00,1,1,0,0.0
+647,1,Male,New Consultation,3,2,0,Friday,12:00-14:00,0,0,0,0.0
+1462,64,Female,Follow-up,11,11,0,Friday,10:00-12:00,0,0,0,0.0
+2426,49,Female,Follow-up,8,0,0,Tuesday,10:00-12:00,1,1,0,0.0
+897,51,Female,Urgent Visit,2,0,0,Wednesday,18:00-20:00,0,1,0,0.0
+1823,30,Male,Follow-up,14,0,0,Thursday,14:00-16:00,1,1,0,0.0
+1187,37,Female,Follow-up,3,4,0,Thursday,10:00-12:00,1,0,0,0.0
+1697,46,Male,Follow-up,8,12,1,Thursday,14:00-16:00,1,0,1,0.08333333333333333
+1313,55,Female,New Consultation,3,1,0,Friday,10:00-12:00,0,0,0,0.0
+1891,35,Female,Follow-up,24,0,0,Monday,10:00-12:00,1,1,0,0.0
+2477,62,Female,Procedure,2,1,0,Thursday,10:00-12:00,0,0,0,0.0
+1573,39,Female,Routine Check,17,3,1,Wednesday,10:00-12:00,1,0,0,0.3333333333333333
+1741,23,Male,New Consultation,14,3,0,Wednesday,12:00-14:00,1,0,0,0.0
+666,71,Male,Follow-up,7,6,1,Tuesday,12:00-14:00,1,0,0,0.16666666666666666
+126,29,Female,Urgent Visit,1,14,4,Wednesday,18:00-20:00,1,0,0,0.2857142857142857
+2443,4,Female,New Consultation,14,2,0,Tuesday,10:00-12:00,0,0,0,0.0
+1157,46,Male,Follow-up,19,1,0,Monday,16:00-18:00,1,0,0,0.0
+200,55,Female,Urgent Visit,2,0,0,Tuesday,08:00-10:00,1,1,0,0.0
+1037,55,Male,Procedure,5,11,0,Thursday,14:00-16:00,0,0,0,0.0
+2050,31,Male,Routine Check,2,0,0,Monday,18:00-20:00,1,1,0,0.0
+2263,33,Female,New Consultation,21,6,0,Thursday,08:00-10:00,0,0,1,0.0
+1959,64,Female,New Consultation,6,7,1,Tuesday,10:00-12:00,0,0,0,0.14285714285714285
+2497,56,Female,New Consultation,24,3,1,Friday,10:00-12:00,1,0,0,0.3333333333333333
+2014,25,Male,Routine Check,2,3,0,Thursday,18:00-20:00,1,0,0,0.0
+1863,37,Female,Follow-up,16,7,1,Wednesday,12:00-14:00,1,0,0,0.14285714285714285
+2234,25,Female,Follow-up,2,13,3,Saturday,10:00-12:00,1,0,0,0.23076923076923078
+1068,59,Female,Procedure,8,3,0,Wednesday,14:00-16:00,1,0,0,0.0
+205,41,Female,Procedure,13,0,0,Monday,08:00-10:00,0,1,0,0.0
+2100,34,Male,Routine Check,28,11,1,Monday,10:00-12:00,1,0,0,0.09090909090909091
+2373,51,Female,Procedure,15,0,0,Thursday,14:00-16:00,1,1,0,0.0
+1345,43,Male,New Consultation,4,9,4,Monday,12:00-14:00,1,0,1,0.4444444444444444
+1156,47,Female,New Consultation,10,0,0,Monday,16:00-18:00,1,1,0,0.0
+770,15,Male,Follow-up,3,4,1,Saturday,08:00-10:00,1,0,0,0.25
+1702,54,Female,Urgent Visit,5,6,1,Wednesday,08:00-10:00,1,0,0,0.16666666666666666
+1850,45,Female,Follow-up,21,4,1,Wednesday,16:00-18:00,1,0,1,0.25
+2669,37,Male,Follow-up,4,2,0,Tuesday,08:00-10:00,1,0,0,0.0
+2255,25,Female,Routine Check,10,1,0,Tuesday,16:00-18:00,1,0,0,0.0
+2163,16,Female,New Consultation,19,0,0,Friday,10:00-12:00,1,1,0,0.0
+2160,34,Female,Follow-up,17,3,1,Tuesday,14:00-16:00,0,0,0,0.3333333333333333
+1371,31,Male,Follow-up,0,11,2,Tuesday,16:00-18:00,1,0,0,0.18181818181818182
+1347,53,Male,Follow-up,14,0,0,Friday,10:00-12:00,0,1,0,0.0
+813,30,Female,Routine Check,6,1,1,Wednesday,12:00-14:00,0,0,0,1.0
+2851,59,Female,Follow-up,8,1,0,Friday,14:00-16:00,1,0,0,0.0
+1710,45,Male,Follow-up,14,7,0,Wednesday,14:00-16:00,1,0,0,0.0
+2004,38,Female,New Consultation,8,10,1,Wednesday,10:00-12:00,0,0,0,0.1
+1729,62,Female,Follow-up,9,5,0,Monday,14:00-16:00,1,0,0,0.0
+310,39,Female,Routine Check,7,2,0,Monday,14:00-16:00,1,0,0,0.0
+423,22,Female,New Consultation,28,1,0,Friday,16:00-18:00,1,0,0,0.0
+714,56,Female,Follow-up,18,1,0,Friday,08:00-10:00,1,0,1,0.0
+324,39,Female,Follow-up,30,0,0,Saturday,14:00-16:00,1,1,0,0.0
+1735,49,Female,Follow-up,6,16,1,Friday,14:00-16:00,1,0,0,0.0625
+673,43,Male,Follow-up,14,3,1,Friday,12:00-14:00,1,0,0,0.3333333333333333
+1960,61,Male,Routine Check,6,8,1,Friday,14:00-16:00,0,0,0,0.125
+2988,31,Male,New Consultation,28,1,0,Thursday,14:00-16:00,0,0,0,0.0
+1968,43,Male,Follow-up,4,2,1,Saturday,16:00-18:00,1,0,0,0.5
+1161,66,Female,New Consultation,8,5,0,Saturday,10:00-12:00,0,0,0,0.0
+1154,37,Male,New Consultation,22,2,0,Saturday,10:00-12:00,1,0,0,0.0
+1567,50,Female,New Consultation,4,1,1,Wednesday,12:00-14:00,1,0,0,1.0
+1860,63,Female,Follow-up,10,5,2,Saturday,14:00-16:00,1,0,1,0.4
+2689,57,Male,Follow-up,4,0,0,Friday,14:00-16:00,1,1,0,0.0
+872,60,Female,Procedure,10,2,1,Thursday,12:00-14:00,1,0,0,0.5
+1879,49,Female,New Consultation,25,13,2,Thursday,10:00-12:00,0,0,1,0.15384615384615385
+1510,61,Male,Urgent Visit,6,15,4,Friday,08:00-10:00,1,0,1,0.26666666666666666
+2559,46,Female,New Consultation,13,0,0,Thursday,08:00-10:00,1,1,0,0.0
+1789,55,Male,Routine Check,5,5,1,Thursday,10:00-12:00,1,0,0,0.2
+2867,31,Female,Routine Check,4,10,1,Wednesday,14:00-16:00,1,0,0,0.1
+2223,29,Male,Routine Check,19,2,1,Tuesday,08:00-10:00,1,0,0,0.5
+1647,68,Female,New Consultation,37,4,0,Monday,18:00-20:00,0,0,0,0.0
+1467,32,Female,Follow-up,8,5,1,Tuesday,18:00-20:00,1,0,0,0.2
+1232,27,Male,New Consultation,19,6,0,Wednesday,14:00-16:00,1,0,0,0.0
+475,50,Female,Follow-up,10,0,0,Thursday,08:00-10:00,1,1,0,0.0
+1853,12,Female,New Consultation,20,13,0,Saturday,18:00-20:00,0,0,1,0.0
+2574,41,Female,New Consultation,12,9,4,Tuesday,16:00-18:00,1,0,1,0.4444444444444444
+1395,29,Female,Follow-up,12,6,0,Wednesday,12:00-14:00,0,0,0,0.0
+994,34,Male,Routine Check,0,4,0,Saturday,10:00-12:00,1,0,0,0.0
+2950,25,Female,Procedure,28,0,0,Thursday,18:00-20:00,1,1,0,0.0
+1275,19,Female,Routine Check,5,8,0,Tuesday,12:00-14:00,0,0,0,0.0
+501,26,Female,New Consultation,17,1,0,Tuesday,14:00-16:00,1,0,0,0.0
+2526,1,Male,New Consultation,13,4,0,Monday,10:00-12:00,1,0,0,0.0
+199,29,Male,New Consultation,7,0,0,Saturday,10:00-12:00,1,1,0,0.0
+2566,30,Female,Follow-up,21,4,2,Monday,14:00-16:00,0,0,0,0.5
+1538,20,Female,New Consultation,2,0,0,Tuesday,10:00-12:00,0,1,0,0.0
+368,48,Male,Procedure,6,8,1,Wednesday,14:00-16:00,1,0,0,0.125
+104,23,Female,New Consultation,2,1,0,Tuesday,18:00-20:00,1,0,1,0.0
+1253,58,Female,Follow-up,10,0,0,Wednesday,16:00-18:00,0,1,0,0.0
+2731,62,Female,New Consultation,3,0,0,Thursday,08:00-10:00,1,1,0,0.0
+2036,9,Male,New Consultation,13,13,2,Monday,10:00-12:00,1,0,0,0.15384615384615385
+1826,33,Female,New Consultation,9,6,1,Tuesday,08:00-10:00,1,0,0,0.16666666666666666
+194,38,Female,Routine Check,15,12,3,Thursday,10:00-12:00,1,0,1,0.25
+629,15,Male,New Consultation,0,11,3,Thursday,16:00-18:00,1,0,1,0.2727272727272727
+45,37,Female,Follow-up,9,0,0,Wednesday,14:00-16:00,1,1,0,0.0
+1448,54,Female,Follow-up,24,5,1,Tuesday,16:00-18:00,0,0,0,0.2
+2454,18,Female,New Consultation,19,0,0,Tuesday,16:00-18:00,1,1,0,0.0
+678,53,Female,Follow-up,9,5,1,Saturday,18:00-20:00,1,0,0,0.2
+1355,56,Male,Urgent Visit,0,1,1,Thursday,14:00-16:00,0,0,0,1.0
+74,28,Female,Follow-up,25,8,2,Saturday,12:00-14:00,1,0,1,0.25
+2744,1,Female,Follow-up,2,6,3,Friday,16:00-18:00,1,0,1,0.5
+2078,42,Female,New Consultation,3,0,0,Wednesday,08:00-10:00,1,1,0,0.0
+1300,39,Male,Follow-up,3,4,0,Thursday,10:00-12:00,1,0,0,0.0
+29,34,Female,Routine Check,12,10,1,Wednesday,10:00-12:00,1,0,0,0.1
+289,6,Male,Follow-up,7,20,5,Wednesday,16:00-18:00,1,0,1,0.25
+1649,43,Female,New Consultation,32,2,0,Thursday,08:00-10:00,1,0,0,0.0
+2111,28,Male,New Consultation,10,2,0,Monday,12:00-14:00,1,0,0,0.0
+1282,68,Male,Procedure,1,0,0,Friday,14:00-16:00,1,1,0,0.0
+257,42,Male,Follow-up,3,2,1,Monday,12:00-14:00,0,0,0,0.5
+1379,16,Female,Routine Check,9,0,0,Monday,12:00-14:00,0,1,1,0.0
+979,20,Female,Routine Check,3,6,1,Friday,10:00-12:00,1,0,0,0.16666666666666666
+1155,32,Male,Routine Check,9,1,0,Wednesday,14:00-16:00,0,0,0,0.0
+767,67,Male,Procedure,16,6,1,Wednesday,16:00-18:00,1,0,0,0.16666666666666666
+2304,62,Female,Follow-up,4,0,0,Friday,08:00-10:00,1,1,0,0.0
+600,60,Female,Urgent Visit,5,4,0,Wednesday,08:00-10:00,1,0,0,0.0
+1797,59,Male,Urgent Visit,4,0,0,Thursday,16:00-18:00,0,1,0,0.0
+2853,48,Male,New Consultation,14,0,0,Wednesday,10:00-12:00,1,1,0,0.0
+2552,20,Male,New Consultation,19,5,2,Monday,18:00-20:00,1,0,1,0.4
+246,46,Female,Follow-up,5,2,0,Friday,16:00-18:00,1,0,0,0.0
+1465,82,Female,Routine Check,6,0,0,Thursday,10:00-12:00,1,1,0,0.0
+1021,43,Female,Procedure,3,0,0,Friday,16:00-18:00,1,1,0,0.0
+1533,54,Male,Follow-up,4,15,0,Thursday,14:00-16:00,1,0,1,0.0
+1910,10,Male,Routine Check,4,5,1,Friday,16:00-18:00,1,0,0,0.2
+591,56,Male,Routine Check,6,4,0,Thursday,16:00-18:00,1,0,1,0.0
+2285,1,Male,New Consultation,11,4,0,Friday,14:00-16:00,0,0,0,0.0
+1711,71,Male,Urgent Visit,1,0,0,Saturday,08:00-10:00,1,1,0,0.0
+2954,29,Male,New Consultation,5,1,0,Tuesday,08:00-10:00,0,0,1,0.0
+1978,47,Male,Routine Check,2,1,0,Friday,16:00-18:00,1,0,0,0.0
+1162,49,Male,Follow-up,13,13,0,Friday,16:00-18:00,1,0,0,0.0
+1295,25,Male,Routine Check,5,1,0,Friday,18:00-20:00,1,0,0,0.0
+1326,11,Male,Follow-up,1,0,0,Thursday,10:00-12:00,1,1,1,0.0
+1404,34,Male,Follow-up,12,2,0,Friday,16:00-18:00,1,0,0,0.0
+640,52,Male,Urgent Visit,7,17,6,Saturday,08:00-10:00,0,0,1,0.35294117647058826
+2374,30,Male,Routine Check,27,3,0,Friday,10:00-12:00,1,0,0,0.0
+2735,39,Female,New Consultation,3,6,2,Friday,16:00-18:00,1,0,0,0.3333333333333333
+1768,40,Female,Follow-up,2,2,0,Wednesday,16:00-18:00,1,0,0,0.0
+2313,70,Male,Follow-up,36,0,0,Monday,16:00-18:00,1,1,0,0.0
+1620,53,Female,Routine Check,14,0,0,Friday,10:00-12:00,1,1,0,0.0
+1872,53,Female,New Consultation,6,10,0,Wednesday,08:00-10:00,0,0,0,0.0
+606,34,Female,Follow-up,5,3,0,Tuesday,08:00-10:00,1,0,0,0.0
+358,58,Male,Routine Check,25,2,1,Thursday,12:00-14:00,1,0,1,0.5
+528,38,Male,New Consultation,26,1,0,Thursday,18:00-20:00,1,0,1,0.0
+2917,26,Female,Procedure,10,14,1,Friday,18:00-20:00,0,0,1,0.07142857142857142
+1045,60,Male,Follow-up,19,2,1,Wednesday,14:00-16:00,1,0,0,0.5
+1896,90,Male,Routine Check,5,16,4,Tuesday,08:00-10:00,1,0,0,0.25
+1979,32,Female,Routine Check,16,3,0,Wednesday,10:00-12:00,1,0,0,0.0
+1798,29,Female,Follow-up,8,7,1,Thursday,14:00-16:00,1,0,1,0.14285714285714285
+2025,41,Male,New Consultation,0,0,0,Wednesday,18:00-20:00,1,1,0,0.0
+835,70,Female,Follow-up,13,0,0,Friday,14:00-16:00,1,1,0,0.0
+2831,52,Female,Follow-up,6,6,1,Saturday,16:00-18:00,1,0,0,0.16666666666666666
+247,54,Female,Follow-up,3,11,1,Monday,16:00-18:00,0,0,0,0.09090909090909091
+1217,22,Female,Follow-up,9,0,0,Saturday,10:00-12:00,1,1,1,0.0
+691,50,Female,Routine Check,1,3,1,Wednesday,12:00-14:00,1,0,0,0.3333333333333333
+2475,42,Male,Follow-up,8,5,0,Saturday,10:00-12:00,0,0,0,0.0
+2792,67,Female,Follow-up,7,2,0,Monday,16:00-18:00,1,0,0,0.0
+502,47,Male,Urgent Visit,5,0,0,Friday,12:00-14:00,1,1,0,0.0
+515,61,Female,Follow-up,3,0,0,Thursday,12:00-14:00,1,1,0,0.0
+2048,34,Female,Routine Check,38,2,1,Thursday,12:00-14:00,1,0,0,0.5
+355,39,Female,Follow-up,30,3,0,Saturday,14:00-16:00,1,0,0,0.0
+2694,39,Female,Follow-up,13,10,1,Monday,18:00-20:00,0,0,0,0.1
+2390,11,Female,Procedure,13,5,2,Thursday,14:00-16:00,1,0,1,0.4
+2610,31,Male,Follow-up,50,1,0,Thursday,12:00-14:00,0,0,0,0.0
+1904,69,Male,Follow-up,7,11,0,Wednesday,18:00-20:00,1,0,0,0.0
+1440,35,Male,Routine Check,10,1,0,Monday,10:00-12:00,1,0,0,0.0
+2898,35,Male,Follow-up,5,0,0,Friday,14:00-16:00,1,1,0,0.0
+1392,28,Male,Follow-up,6,2,0,Friday,14:00-16:00,1,0,0,0.0
+2439,44,Female,New Consultation,5,0,0,Wednesday,08:00-10:00,1,1,0,0.0
+2811,57,Male,Routine Check,9,4,0,Friday,14:00-16:00,1,0,0,0.0
+2630,56,Female,Urgent Visit,0,11,1,Saturday,14:00-16:00,0,0,0,0.09090909090909091
+2017,42,Male,Follow-up,16,12,2,Wednesday,10:00-12:00,1,0,1,0.16666666666666666
+67,51,Male,Follow-up,11,4,0,Saturday,14:00-16:00,1,0,1,0.0
+565,40,Male,Follow-up,4,8,3,Monday,10:00-12:00,0,0,0,0.375
+914,58,Male,Follow-up,5,12,1,Friday,10:00-12:00,1,0,0,0.08333333333333333
+724,83,Male,Procedure,8,0,0,Saturday,12:00-14:00,1,1,0,0.0
+1430,71,Male,Procedure,14,0,0,Monday,08:00-10:00,1,1,0,0.0
+1676,32,Male,Follow-up,10,0,0,Saturday,14:00-16:00,1,1,0,0.0
+2167,65,Female,Urgent Visit,3,10,4,Tuesday,12:00-14:00,1,0,0,0.4
+2918,59,Male,Urgent Visit,1,0,0,Thursday,12:00-14:00,1,1,0,0.0
+16,39,Male,Follow-up,7,1,1,Tuesday,08:00-10:00,0,0,0,1.0
+2583,9,Female,Procedure,12,3,1,Monday,14:00-16:00,1,0,0,0.3333333333333333
+1158,27,Female,New Consultation,14,0,0,Thursday,16:00-18:00,1,1,0,0.0
+2681,71,Male,Urgent Visit,6,0,0,Tuesday,08:00-10:00,0,1,1,0.0
+1811,48,Female,Follow-up,34,2,1,Tuesday,10:00-12:00,1,0,0,0.5
+2483,29,Female,Follow-up,7,6,0,Wednesday,08:00-10:00,1,0,0,0.0
+808,26,Male,Follow-up,18,0,0,Wednesday,18:00-20:00,1,1,0,0.0
+2768,12,Male,Routine Check,13,2,1,Tuesday,14:00-16:00,1,0,0,0.5
+162,33,Female,Urgent Visit,6,4,0,Thursday,16:00-18:00,1,0,0,0.0
+749,29,Male,New Consultation,18,0,0,Thursday,16:00-18:00,1,1,0,0.0
+2468,58,Female,Urgent Visit,0,7,0,Friday,12:00-14:00,1,0,0,0.0
+1651,38,Male,Routine Check,20,9,0,Wednesday,08:00-10:00,1,0,0,0.0
+276,62,Female,Follow-up,3,4,1,Monday,12:00-14:00,0,0,0,0.25
+1048,35,Female,New Consultation,8,4,0,Friday,16:00-18:00,1,0,0,0.0
+2312,31,Female,Routine Check,6,2,0,Tuesday,14:00-16:00,0,0,0,0.0
+2193,32,Male,Follow-up,31,3,0,Saturday,10:00-12:00,1,0,0,0.0
+361,67,Female,Follow-up,17,15,3,Monday,14:00-16:00,1,0,1,0.2
+1360,32,Male,Urgent Visit,1,3,0,Wednesday,08:00-10:00,1,0,1,0.0
+2994,46,Female,Routine Check,13,3,0,Thursday,10:00-12:00,1,0,1,0.0
+1034,1,Male,Follow-up,27,4,1,Friday,18:00-20:00,1,0,0,0.25
+1785,42,Male,New Consultation,17,1,0,Wednesday,16:00-18:00,1,0,0,0.0
+495,37,Male,Follow-up,8,2,0,Saturday,10:00-12:00,1,0,1,0.0
+1581,34,Male,Urgent Visit,0,4,0,Friday,16:00-18:00,1,0,0,0.0
+178,53,Male,Follow-up,3,7,1,Tuesday,16:00-18:00,1,0,0,0.14285714285714285
+1836,54,Male,New Consultation,10,0,0,Tuesday,12:00-14:00,0,1,0,0.0
+22,80,Male,New Consultation,1,2,0,Wednesday,16:00-18:00,0,0,0,0.0
+1426,38,Female,Urgent Visit,5,4,0,Monday,16:00-18:00,1,0,0,0.0
+2691,2,Female,Follow-up,1,12,1,Wednesday,14:00-16:00,1,0,0,0.08333333333333333
+768,16,Female,Routine Check,26,0,0,Thursday,10:00-12:00,1,1,1,0.0
+633,62,Female,Follow-up,8,5,1,Wednesday,10:00-12:00,0,0,0,0.2
+2174,14,Female,Follow-up,5,1,1,Thursday,10:00-12:00,1,0,0,1.0
+1060,76,Female,Routine Check,16,5,0,Friday,12:00-14:00,1,0,0,0.0
+498,42,Female,Procedure,2,8,1,Tuesday,12:00-14:00,1,0,0,0.125
+1035,11,Female,Urgent Visit,7,6,1,Tuesday,16:00-18:00,0,0,0,0.16666666666666666
+2873,32,Male,Follow-up,29,1,0,Saturday,08:00-10:00,1,0,0,0.0
+1064,31,Male,Follow-up,18,9,0,Wednesday,10:00-12:00,0,0,0,0.0
+1477,34,Male,New Consultation,4,13,2,Friday,18:00-20:00,1,0,0,0.15384615384615385
+65,44,Male,Urgent Visit,3,5,1,Monday,16:00-18:00,1,0,1,0.2
+1965,40,Female,Follow-up,6,0,0,Wednesday,18:00-20:00,1,1,0,0.0
+2934,26,Male,New Consultation,8,6,0,Friday,16:00-18:00,1,0,0,0.0
+2123,37,Male,Follow-up,11,14,4,Wednesday,08:00-10:00,1,0,0,0.2857142857142857
+1424,45,Female,New Consultation,4,0,0,Wednesday,14:00-16:00,1,1,0,0.0
+2975,48,Male,Procedure,3,2,0,Thursday,14:00-16:00,1,0,0,0.0
+58,28,Female,Follow-up,9,0,0,Saturday,14:00-16:00,1,1,1,0.0
+735,35,Male,Routine Check,7,0,0,Monday,18:00-20:00,1,1,0,0.0
+379,26,Female,New Consultation,11,4,0,Saturday,08:00-10:00,0,0,0,0.0
+1921,88,Female,Follow-up,19,8,2,Saturday,18:00-20:00,1,0,0,0.25
+2143,3,Male,Follow-up,7,2,0,Thursday,18:00-20:00,1,0,0,0.0
+807,27,Male,Procedure,21,0,0,Friday,12:00-14:00,1,1,0,0.0
+1165,26,Female,Procedure,7,0,0,Friday,16:00-18:00,1,1,1,0.0
+2058,43,Female,Follow-up,26,6,0,Wednesday,10:00-12:00,0,0,0,0.0
+1458,28,Male,Procedure,4,0,0,Monday,10:00-12:00,0,1,0,0.0
+1114,25,Female,Routine Check,15,0,0,Tuesday,10:00-12:00,1,1,0,0.0
+741,70,Female,Follow-up,2,4,0,Thursday,18:00-20:00,1,0,0,0.0
+505,53,Female,Follow-up,1,0,0,Tuesday,14:00-16:00,1,1,0,0.0
+886,26,Female,Routine Check,2,10,2,Monday,16:00-18:00,1,0,1,0.2
+920,56,Male,Follow-up,4,5,1,Friday,10:00-12:00,1,0,0,0.2
+2924,28,Male,Urgent Visit,0,1,0,Wednesday,16:00-18:00,0,0,0,0.0
+153,36,Male,Follow-up,8,3,0,Monday,12:00-14:00,1,0,0,0.0
+1450,56,Male,New Consultation,14,19,3,Thursday,14:00-16:00,1,0,1,0.15789473684210525
+1011,2,Female,New Consultation,12,1,0,Monday,12:00-14:00,0,0,0,0.0
+2112,21,Female,Follow-up,12,8,3,Wednesday,10:00-12:00,0,0,0,0.375
+620,45,Male,Routine Check,3,2,1,Tuesday,12:00-14:00,1,0,0,0.5
+132,11,Male,Procedure,15,0,0,Thursday,10:00-12:00,1,1,0,0.0
+1739,75,Male,Follow-up,4,1,0,Friday,10:00-12:00,1,0,0,0.0
+2700,67,Female,Routine Check,21,3,0,Tuesday,16:00-18:00,0,0,0,0.0
+688,48,Male,Routine Check,14,0,0,Friday,16:00-18:00,1,1,0,0.0
+826,55,Female,Routine Check,8,1,0,Thursday,08:00-10:00,1,0,0,0.0
+424,52,Male,New Consultation,0,0,0,Friday,12:00-14:00,1,1,0,0.0
+445,37,Female,New Consultation,17,3,0,Saturday,14:00-16:00,1,0,0,0.0
+2494,46,Male,Follow-up,4,25,1,Thursday,16:00-18:00,1,0,0,0.04
+1703,36,Male,Follow-up,8,6,1,Tuesday,14:00-16:00,1,0,0,0.16666666666666666
+2978,28,Male,New Consultation,3,2,0,Wednesday,12:00-14:00,1,0,0,0.0
+451,50,Female,Follow-up,5,11,1,Friday,10:00-12:00,1,0,1,0.09090909090909091
+2842,49,Female,Follow-up,10,0,0,Saturday,16:00-18:00,1,1,0,0.0
+2948,75,Female,Follow-up,11,1,0,Monday,14:00-16:00,1,0,0,0.0
+1952,75,Male,Follow-up,41,1,0,Tuesday,14:00-16:00,1,0,0,0.0
+2024,30,Male,Urgent Visit,5,5,0,Tuesday,14:00-16:00,1,0,0,0.0
+595,69,Female,Routine Check,11,5,1,Friday,08:00-10:00,0,0,1,0.2
+2467,51,Female,Routine Check,3,3,1,Tuesday,16:00-18:00,1,0,0,0.3333333333333333
+969,32,Female,Follow-up,14,0,0,Wednesday,10:00-12:00,1,1,0,0.0
+2026,35,Male,Routine Check,5,2,0,Thursday,14:00-16:00,1,0,0,0.0
+2514,66,Female,Follow-up,8,0,0,Saturday,14:00-16:00,1,1,0,0.0
+1781,35,Female,Follow-up,16,1,0,Friday,10:00-12:00,1,0,0,0.0
+1564,34,Male,Routine Check,3,3,0,Friday,10:00-12:00,1,0,0,0.0
+1468,53,Female,Urgent Visit,0,0,0,Saturday,16:00-18:00,0,1,0,0.0
+2783,31,Female,Follow-up,7,0,0,Saturday,14:00-16:00,1,1,0,0.0
+1356,59,Female,New Consultation,26,0,0,Wednesday,12:00-14:00,1,1,1,0.0
+1512,54,Female,Follow-up,12,1,0,Friday,12:00-14:00,1,0,0,0.0
+703,41,Female,New Consultation,13,8,4,Wednesday,14:00-16:00,1,0,1,0.5
+2880,44,Female,New Consultation,15,3,0,Friday,18:00-20:00,1,0,0,0.0
+2937,43,Female,Follow-up,5,3,0,Thursday,16:00-18:00,1,0,0,0.0
+2909,43,Female,New Consultation,8,0,0,Friday,14:00-16:00,1,1,1,0.0
+836,56,Female,Follow-up,14,9,0,Thursday,14:00-16:00,0,0,0,0.0
+717,25,Female,Follow-up,3,2,0,Saturday,18:00-20:00,1,0,0,0.0
+465,11,Male,Follow-up,6,0,0,Saturday,18:00-20:00,1,1,0,0.0
+2139,57,Female,New Consultation,11,1,0,Friday,10:00-12:00,1,0,0,0.0
+36,33,Female,Procedure,12,7,0,Thursday,18:00-20:00,1,0,0,0.0
+552,37,Female,Follow-up,12,3,0,Friday,12:00-14:00,1,0,0,0.0
+499,65,Female,Procedure,27,1,0,Friday,16:00-18:00,1,0,0,0.0
+1383,49,Female,Routine Check,4,10,1,Thursday,10:00-12:00,1,0,0,0.1
+2818,28,Female,Procedure,6,3,0,Wednesday,10:00-12:00,0,0,0,0.0
+497,31,Female,Routine Check,5,1,0,Friday,18:00-20:00,1,0,0,0.0
+2209,39,Male,Follow-up,10,4,1,Tuesday,14:00-16:00,0,0,0,0.25
+2157,29,Male,New Consultation,7,1,0,Tuesday,18:00-20:00,1,0,0,0.0
+617,59,Male,Follow-up,13,0,0,Wednesday,16:00-18:00,1,1,0,0.0
+2712,14,Male,New Consultation,17,2,0,Wednesday,18:00-20:00,1,0,0,0.0
+413,40,Male,Urgent Visit,7,1,0,Tuesday,08:00-10:00,1,0,0,0.0
+747,70,Male,Follow-up,5,2,0,Saturday,16:00-18:00,0,0,0,0.0
+2943,35,Male,New Consultation,5,5,1,Friday,14:00-16:00,1,0,0,0.2
+695,26,Male,Routine Check,5,4,2,Wednesday,18:00-20:00,1,0,1,0.5
+1350,33,Female,Follow-up,16,3,1,Thursday,10:00-12:00,1,0,0,0.3333333333333333
+1838,51,Female,Follow-up,4,6,0,Monday,16:00-18:00,0,0,0,0.0
+1019,24,Male,Follow-up,12,3,0,Tuesday,14:00-16:00,1,0,0,0.0
+1822,23,Male,New Consultation,7,2,0,Thursday,16:00-18:00,1,0,0,0.0
+2785,44,Female,New Consultation,14,7,0,Saturday,18:00-20:00,1,0,0,0.0
+1056,61,Male,Routine Check,12,4,0,Friday,16:00-18:00,1,0,1,0.0
+491,61,Female,Urgent Visit,7,0,0,Monday,16:00-18:00,0,1,0,0.0
+223,36,Male,Follow-up,0,4,1,Wednesday,10:00-12:00,1,0,0,0.25
+1314,39,Female,Procedure,24,8,1,Monday,16:00-18:00,1,0,1,0.125
+585,1,Female,Follow-up,16,0,0,Wednesday,18:00-20:00,1,1,0,0.0
+1057,20,Female,Procedure,5,12,0,Tuesday,08:00-10:00,0,0,0,0.0
+2817,30,Female,Follow-up,19,3,0,Saturday,18:00-20:00,1,0,0,0.0
+859,42,Male,New Consultation,0,2,0,Friday,14:00-16:00,1,0,0,0.0
+2147,39,Male,Procedure,1,0,0,Wednesday,08:00-10:00,1,1,0,0.0
+2401,53,Female,Follow-up,3,6,0,Monday,14:00-16:00,1,0,0,0.0
+2715,53,Female,Follow-up,4,7,1,Tuesday,14:00-16:00,1,0,0,0.14285714285714285
+1368,35,Female,Procedure,23,1,1,Thursday,14:00-16:00,1,0,0,1.0
+2841,50,Female,Follow-up,6,5,2,Saturday,10:00-12:00,1,0,0,0.4
+290,46,Male,Follow-up,5,25,5,Tuesday,14:00-16:00,1,0,1,0.2
+759,59,Female,Urgent Visit,7,0,0,Tuesday,10:00-12:00,1,1,0,0.0
+2593,55,Female,Follow-up,6,6,0,Monday,16:00-18:00,1,0,0,0.0
+1071,71,Male,Procedure,4,4,2,Monday,08:00-10:00,1,0,0,0.5
+165,16,Female,Routine Check,21,6,0,Tuesday,16:00-18:00,1,0,0,0.0
+2580,50,Female,Urgent Visit,0,5,0,Wednesday,18:00-20:00,0,0,0,0.0
+795,69,Male,Procedure,23,4,1,Thursday,08:00-10:00,1,0,0,0.25
+1929,47,Female,Routine Check,20,1,0,Friday,12:00-14:00,1,0,0,0.0
+1632,48,Female,Routine Check,14,6,0,Wednesday,14:00-16:00,0,0,0,0.0
+935,72,Male,Routine Check,11,9,1,Thursday,18:00-20:00,1,0,0,0.1111111111111111
+1623,50,Female,Routine Check,7,0,0,Tuesday,14:00-16:00,1,1,0,0.0
+1066,40,Female,Follow-up,7,5,1,Thursday,12:00-14:00,0,0,0,0.2
+2810,68,Female,New Consultation,17,0,0,Thursday,14:00-16:00,1,1,0,0.0
+1827,41,Male,Routine Check,5,4,0,Thursday,10:00-12:00,1,0,0,0.0
+2155,55,Female,Follow-up,17,4,0,Tuesday,18:00-20:00,1,0,0,0.0
+6,54,Male,Follow-up,13,5,1,Friday,10:00-12:00,0,0,0,0.2
+1454,48,Male,Follow-up,10,2,0,Thursday,10:00-12:00,1,0,0,0.0
+493,37,Female,Procedure,4,8,2,Friday,10:00-12:00,1,0,0,0.25
+876,5,Female,Follow-up,9,0,0,Tuesday,10:00-12:00,0,1,1,0.0
+1278,65,Male,Follow-up,26,1,0,Friday,14:00-16:00,1,0,0,0.0
+1837,70,Male,Follow-up,19,3,1,Tuesday,12:00-14:00,1,0,0,0.3333333333333333
+2774,20,Female,Follow-up,11,0,0,Monday,14:00-16:00,1,1,0,0.0
+2995,41,Male,Follow-up,5,10,0,Saturday,16:00-18:00,1,0,0,0.0
+2946,59,Female,New Consultation,1,2,1,Friday,10:00-12:00,1,0,0,0.5
+3,59,Female,Follow-up,17,0,0,Wednesday,10:00-12:00,0,1,0,0.0
+301,75,Female,Routine Check,6,0,0,Saturday,08:00-10:00,1,1,0,0.0
+1973,39,Male,Procedure,18,1,0,Monday,10:00-12:00,0,0,0,0.0
+2706,49,Male,New Consultation,8,0,0,Tuesday,14:00-16:00,1,1,0,0.0
+580,25,Female,Follow-up,17,1,0,Friday,08:00-10:00,0,0,0,0.0
+1086,28,Female,Follow-up,13,4,0,Tuesday,16:00-18:00,1,0,0,0.0
+906,41,Male,New Consultation,5,1,0,Friday,08:00-10:00,1,0,0,0.0
+318,18,Female,Urgent Visit,1,10,5,Monday,10:00-12:00,0,0,1,0.5
+2128,4,Male,Routine Check,16,1,0,Friday,18:00-20:00,1,0,0,0.0
+2363,20,Female,Urgent Visit,0,0,0,Tuesday,12:00-14:00,1,1,0,0.0
+948,64,Female,New Consultation,9,9,0,Tuesday,14:00-16:00,1,0,0,0.0
+1734,32,Female,New Consultation,15,6,2,Thursday,16:00-18:00,0,0,0,0.3333333333333333
+630,65,Male,New Consultation,14,11,0,Monday,16:00-18:00,1,0,0,0.0
+311,64,Female,Follow-up,15,24,3,Wednesday,18:00-20:00,0,0,1,0.125
+1894,28,Male,New Consultation,32,2,0,Monday,10:00-12:00,1,0,0,0.0
+2759,39,Female,Routine Check,4,12,1,Friday,16:00-18:00,0,0,0,0.08333333333333333
+855,30,Male,Follow-up,4,2,0,Tuesday,08:00-10:00,1,0,0,0.0
+867,36,Female,Procedure,16,21,1,Tuesday,12:00-14:00,1,0,0,0.047619047619047616
+1802,45,Female,Follow-up,4,3,0,Saturday,10:00-12:00,1,0,0,0.0
+2678,42,Female,New Consultation,14,0,0,Tuesday,14:00-16:00,1,1,0,0.0
+701,55,Female,Routine Check,1,11,2,Tuesday,10:00-12:00,1,0,0,0.18181818181818182
+1421,44,Female,Routine Check,14,1,0,Tuesday,18:00-20:00,1,0,0,0.0
+833,70,Female,Follow-up,12,1,0,Tuesday,10:00-12:00,1,0,0,0.0
+1856,81,Male,Routine Check,11,1,0,Thursday,10:00-12:00,1,0,0,0.0
+2979,19,Male,Urgent Visit,6,7,0,Thursday,10:00-12:00,0,0,0,0.0
+2113,46,Female,Routine Check,7,8,0,Wednesday,14:00-16:00,1,0,0,0.0
+2623,43,Female,Follow-up,8,0,0,Saturday,18:00-20:00,1,1,0,0.0
+1207,3,Female,Follow-up,17,1,1,Saturday,10:00-12:00,0,0,0,1.0
+1400,39,Male,Follow-up,7,2,0,Friday,10:00-12:00,1,0,0,0.0
+1203,10,Female,Follow-up,3,13,3,Monday,14:00-16:00,1,0,0,0.23076923076923078
+2395,5,Male,New Consultation,1,8,1,Saturday,08:00-10:00,0,0,1,0.125
+1547,39,Female,Follow-up,1,4,0,Wednesday,16:00-18:00,1,0,0,0.0
+1914,37,Female,Routine Check,13,2,0,Saturday,16:00-18:00,1,0,0,0.0
+1227,32,Female,Follow-up,15,4,0,Monday,16:00-18:00,1,0,0,0.0
+2646,68,Female,Follow-up,11,4,0,Thursday,18:00-20:00,1,0,0,0.0
+1177,12,Female,Follow-up,11,3,0,Monday,14:00-16:00,1,0,0,0.0
+1220,78,Male,Routine Check,5,0,0,Wednesday,18:00-20:00,1,1,0,0.0
+1966,76,Female,New Consultation,14,0,0,Thursday,18:00-20:00,1,1,0,0.0
+804,82,Female,New Consultation,9,0,0,Tuesday,10:00-12:00,1,1,0,0.0
+2586,51,Female,Follow-up,16,0,0,Thursday,08:00-10:00,1,1,0,0.0
+521,24,Male,Follow-up,23,4,0,Saturday,16:00-18:00,1,0,0,0.0
+1596,32,Female,New Consultation,8,0,0,Saturday,16:00-18:00,0,1,0,0.0
+2991,28,Female,New Consultation,42,3,1,Friday,12:00-14:00,1,0,1,0.3333333333333333
+1361,63,Male,Follow-up,18,6,2,Tuesday,10:00-12:00,1,0,0,0.3333333333333333
+891,51,Male,Follow-up,15,2,0,Saturday,10:00-12:00,1,0,0,0.0
+95,21,Male,New Consultation,21,0,0,Friday,16:00-18:00,1,1,0,0.0
+15,42,Female,New Consultation,5,2,1,Wednesday,16:00-18:00,0,0,1,0.5
+2169,46,Male,Follow-up,12,19,4,Monday,16:00-18:00,1,0,1,0.21052631578947367
+2807,28,Female,New Consultation,8,13,1,Saturday,14:00-16:00,1,0,1,0.07692307692307693
+2733,48,Female,Follow-up,27,7,1,Saturday,16:00-18:00,0,0,1,0.14285714285714285
+1364,59,Female,New Consultation,3,9,2,Monday,16:00-18:00,0,0,1,0.2222222222222222
+1563,51,Female,Follow-up,9,1,0,Wednesday,16:00-18:00,1,0,0,0.0
+2809,38,Female,Follow-up,18,5,0,Friday,10:00-12:00,1,0,0,0.0
+288,81,Male,Routine Check,32,1,0,Thursday,16:00-18:00,0,0,0,0.0
+2631,29,Female,New Consultation,9,1,1,Tuesday,12:00-14:00,1,0,0,1.0
+708,1,Female,Procedure,10,1,0,Tuesday,14:00-16:00,1,0,0,0.0
+1494,68,Male,Urgent Visit,5,0,0,Tuesday,10:00-12:00,1,1,0,0.0
+576,17,Male,Procedure,3,4,0,Friday,16:00-18:00,0,0,0,0.0
+2752,85,Male,New Consultation,6,4,1,Thursday,08:00-10:00,1,0,0,0.25
+192,40,Female,Urgent Visit,1,2,0,Saturday,08:00-10:00,1,0,0,0.0
+2901,36,Female,Routine Check,6,2,0,Wednesday,10:00-12:00,1,0,0,0.0
+1198,38,Female,Follow-up,25,9,2,Wednesday,08:00-10:00,1,0,1,0.2222222222222222
+1182,28,Female,Urgent Visit,4,9,5,Saturday,18:00-20:00,1,0,0,0.5555555555555556
+1779,37,Female,Follow-up,3,7,3,Thursday,14:00-16:00,1,0,0,0.42857142857142855
+2484,31,Male,Follow-up,6,11,2,Monday,16:00-18:00,1,0,1,0.18181818181818182
+2491,45,Female,New Consultation,1,0,0,Wednesday,10:00-12:00,1,1,0,0.0
+781,56,Male,Follow-up,9,12,1,Saturday,08:00-10:00,1,0,0,0.08333333333333333
+332,39,Male,New Consultation,13,4,1,Wednesday,08:00-10:00,1,0,0,0.25
+787,58,Female,Follow-up,16,9,0,Wednesday,10:00-12:00,0,0,0,0.0
+2992,25,Female,New Consultation,11,0,0,Friday,12:00-14:00,1,1,0,0.0
+42,9,Male,Procedure,9,2,1,Tuesday,12:00-14:00,1,0,0,0.5
+2672,32,Female,Follow-up,8,7,1,Wednesday,12:00-14:00,0,0,0,0.14285714285714285
+1260,23,Female,Routine Check,9,2,0,Thursday,12:00-14:00,0,0,0,0.0
+1175,57,Female,Procedure,4,3,0,Wednesday,12:00-14:00,1,0,0,0.0
+2226,37,Male,Follow-up,4,0,0,Saturday,16:00-18:00,1,1,0,0.0
+2482,13,Female,Follow-up,9,6,0,Wednesday,16:00-18:00,1,0,0,0.0
+2181,33,Male,New Consultation,3,0,0,Friday,14:00-16:00,1,1,0,0.0
+785,18,Male,Urgent Visit,1,2,1,Monday,16:00-18:00,0,0,0,0.5
+1389,3,Female,Follow-up,12,2,0,Monday,16:00-18:00,1,0,0,0.0
+2079,48,Male,New Consultation,10,3,0,Monday,10:00-12:00,1,0,0,0.0
+1393,57,Female,Follow-up,2,5,0,Saturday,08:00-10:00,1,0,0,0.0
+1923,36,Male,Routine Check,29,5,1,Saturday,18:00-20:00,0,0,0,0.2
+1693,55,Female,Routine Check,0,1,0,Saturday,12:00-14:00,1,0,0,0.0
+1784,32,Male,Follow-up,12,6,3,Tuesday,12:00-14:00,1,0,1,0.5
+2451,40,Female,New Consultation,5,11,0,Friday,18:00-20:00,1,0,0,0.0
+349,36,Female,Procedure,10,3,1,Saturday,08:00-10:00,0,0,1,0.3333333333333333
+2456,64,Female,Follow-up,13,6,2,Thursday,10:00-12:00,1,0,1,0.3333333333333333
+2839,29,Female,New Consultation,10,4,1,Friday,12:00-14:00,1,0,0,0.25
+2268,30,Female,Routine Check,7,4,1,Tuesday,18:00-20:00,1,0,1,0.25
+1736,51,Female,New Consultation,3,5,0,Wednesday,14:00-16:00,1,0,0,0.0
+2309,40,Female,Urgent Visit,1,12,4,Thursday,16:00-18:00,1,0,1,0.3333333333333333
+2741,26,Female,Routine Check,10,17,1,Wednesday,14:00-16:00,1,0,0,0.058823529411764705
+946,18,Male,Routine Check,6,1,0,Thursday,18:00-20:00,1,0,0,0.0
+147,53,Female,Procedure,2,21,3,Wednesday,14:00-16:00,1,0,0,0.14285714285714285
+112,45,Female,New Consultation,4,1,0,Wednesday,12:00-14:00,1,0,1,0.0
+2342,37,Male,New Consultation,1,4,0,Tuesday,12:00-14:00,1,0,0,0.0
+1317,47,Male,Follow-up,3,7,0,Tuesday,16:00-18:00,0,0,0,0.0
+793,1,Female,New Consultation,2,0,0,Thursday,10:00-12:00,1,1,0,0.0
+1488,33,Female,Urgent Visit,0,4,0,Thursday,14:00-16:00,1,0,0,0.0
+1843,67,Male,Urgent Visit,2,1,1,Thursday,16:00-18:00,1,0,0,1.0
+1233,46,Female,Follow-up,2,5,2,Wednesday,14:00-16:00,1,0,0,0.4
+1342,14,Male,Routine Check,10,2,0,Thursday,18:00-20:00,0,0,0,0.0
+2930,27,Female,Routine Check,3,0,0,Wednesday,14:00-16:00,1,1,0,0.0
+1305,36,Male,Routine Check,6,0,0,Monday,16:00-18:00,1,1,1,0.0
+1678,13,Female,Follow-up,5,2,0,Wednesday,14:00-16:00,1,0,0,0.0
+2597,49,Female,Follow-up,7,4,1,Monday,16:00-18:00,0,0,1,0.25
+373,64,Female,Routine Check,11,0,0,Tuesday,14:00-16:00,1,1,1,0.0
+2179,49,Male,Follow-up,23,0,0,Thursday,16:00-18:00,1,1,1,0.0
+1296,56,Female,Follow-up,2,0,0,Friday,14:00-16:00,1,1,0,0.0
+2740,48,Male,Procedure,1,5,0,Monday,08:00-10:00,0,0,0,0.0
+2357,40,Female,Follow-up,12,4,2,Friday,18:00-20:00,1,0,0,0.5
+1180,52,Male,New Consultation,18,1,0,Saturday,12:00-14:00,1,0,0,0.0
+2795,8,Male,Urgent Visit,4,6,0,Thursday,16:00-18:00,1,0,1,0.0
+2016,54,Female,Follow-up,16,0,0,Thursday,12:00-14:00,1,1,0,0.0
+636,71,Female,Routine Check,21,3,3,Monday,18:00-20:00,1,0,0,1.0
+2920,37,Female,Procedure,18,10,3,Thursday,16:00-18:00,1,0,0,0.3
+2019,32,Female,New Consultation,29,0,0,Tuesday,16:00-18:00,1,1,0,0.0
+844,32,Male,New Consultation,4,1,0,Wednesday,18:00-20:00,0,0,1,0.0
+692,38,Male,New Consultation,20,0,0,Thursday,16:00-18:00,1,1,0,0.0
+957,25,Female,Routine Check,23,4,0,Friday,14:00-16:00,1,0,0,0.0
+2140,54,Female,Follow-up,9,9,0,Tuesday,16:00-18:00,1,0,0,0.0
+407,1,Female,New Consultation,4,11,1,Friday,12:00-14:00,0,0,1,0.09090909090909091
+1405,38,Female,Follow-up,13,3,1,Tuesday,16:00-18:00,1,0,0,0.3333333333333333
+156,46,Female,Procedure,5,7,0,Thursday,08:00-10:00,1,0,0,0.0
+2392,41,Female,Follow-up,21,7,0,Thursday,16:00-18:00,1,0,0,0.0
+1643,38,Male,New Consultation,1,5,0,Tuesday,16:00-18:00,1,0,0,0.0
+2637,42,Male,Routine Check,22,3,0,Friday,10:00-12:00,1,0,0,0.0
+2471,15,Female,Follow-up,3,10,2,Friday,10:00-12:00,0,0,0,0.2
+871,34,Female,Routine Check,2,5,4,Wednesday,12:00-14:00,1,0,1,0.8
+1241,43,Male,New Consultation,5,9,0,Wednesday,08:00-10:00,1,0,0,0.0
+2379,19,Female,Follow-up,9,0,0,Thursday,18:00-20:00,0,1,0,0.0
+2146,31,Female,Follow-up,22,21,3,Tuesday,10:00-12:00,1,0,1,0.14285714285714285
+2714,40,Male,Follow-up,6,2,0,Monday,10:00-12:00,1,0,0,0.0
+2035,58,Female,Routine Check,2,0,0,Friday,10:00-12:00,0,1,0,0.0
+116,65,Female,Follow-up,23,9,3,Friday,08:00-10:00,1,0,0,0.3333333333333333
+1557,74,Female,New Consultation,8,7,0,Tuesday,08:00-10:00,1,0,0,0.0
+2184,52,Female,Procedure,10,6,0,Saturday,12:00-14:00,1,0,0,0.0
+2884,54,Female,Follow-up,13,10,0,Monday,16:00-18:00,1,0,0,0.0
+2015,40,Female,Follow-up,7,17,0,Friday,10:00-12:00,1,0,0,0.0
+114,8,Female,Routine Check,8,0,0,Tuesday,14:00-16:00,1,1,0,0.0
+419,73,Male,Follow-up,3,4,0,Wednesday,14:00-16:00,0,0,0,0.0
+2553,9,Female,Follow-up,9,16,2,Saturday,10:00-12:00,1,0,1,0.125
+2977,24,Male,Routine Check,5,3,0,Friday,08:00-10:00,1,0,0,0.0
+81,26,Female,New Consultation,10,4,0,Friday,12:00-14:00,1,0,0,0.0
+2212,76,Female,Procedure,10,1,0,Friday,16:00-18:00,0,0,0,0.0
+267,40,Female,Follow-up,6,0,0,Saturday,14:00-16:00,1,1,0,0.0
+1224,31,Female,New Consultation,13,7,1,Tuesday,18:00-20:00,1,0,0,0.14285714285714285
+399,40,Female,Follow-up,10,1,0,Monday,18:00-20:00,1,0,0,0.0
+773,45,Male,New Consultation,16,3,0,Wednesday,16:00-18:00,0,0,0,0.0
+2277,20,Female,Routine Check,15,13,2,Friday,16:00-18:00,1,0,0,0.15384615384615385
+243,69,Female,Follow-up,1,1,1,Wednesday,10:00-12:00,1,0,0,1.0
+2267,43,Male,Follow-up,2,0,0,Monday,10:00-12:00,0,1,0,0.0
+191,22,Female,New Consultation,13,0,0,Tuesday,10:00-12:00,1,1,0,0.0
+1375,39,Female,New Consultation,3,0,0,Thursday,14:00-16:00,1,1,0,0.0
+1266,21,Female,Follow-up,19,4,0,Saturday,16:00-18:00,1,0,0,0.0
+2358,1,Male,New Consultation,26,9,3,Monday,16:00-18:00,1,0,1,0.3333333333333333
+252,32,Female,Routine Check,4,1,0,Friday,16:00-18:00,1,0,0,0.0
+1616,21,Male,Urgent Visit,1,5,0,Thursday,12:00-14:00,0,0,1,0.0
+1016,43,Female,Routine Check,5,9,1,Monday,14:00-16:00,1,0,0,0.1111111111111111
+1433,27,Male,Follow-up,18,1,0,Tuesday,16:00-18:00,1,0,0,0.0
+854,56,Male,New Consultation,10,9,2,Tuesday,14:00-16:00,1,0,0,0.2222222222222222
+2038,47,Female,Procedure,9,0,0,Wednesday,08:00-10:00,1,1,0,0.0
+44,75,Male,Follow-up,1,0,0,Monday,18:00-20:00,1,1,0,0.0
+12,53,Female,Follow-up,13,1,0,Saturday,08:00-10:00,0,0,1,0.0
+55,74,Male,Procedure,11,0,0,Saturday,14:00-16:00,1,1,0,0.0
+123,44,Female,Routine Check,4,3,1,Thursday,16:00-18:00,1,0,0,0.3333333333333333
+2939,9,Male,Follow-up,21,5,2,Friday,10:00-12:00,1,0,0,0.4
+1301,40,Male,Follow-up,11,2,0,Tuesday,14:00-16:00,1,0,0,0.0
+2850,20,Female,Procedure,5,0,0,Friday,18:00-20:00,1,1,0,0.0
+2814,65,Female,Follow-up,5,3,0,Friday,14:00-16:00,1,0,0,0.0
+1087,14,Female,Routine Check,11,1,0,Friday,12:00-14:00,1,0,0,0.0
+2347,45,Female,Follow-up,23,18,3,Thursday,08:00-10:00,1,0,0,0.16666666666666666
+1391,38,Male,Follow-up,20,2,0,Thursday,16:00-18:00,1,0,0,0.0
+2598,70,Female,Follow-up,16,16,2,Tuesday,16:00-18:00,1,0,1,0.125
+1075,48,Male,Follow-up,21,4,0,Thursday,16:00-18:00,1,0,0,0.0
+1788,61,Male,Follow-up,4,1,1,Monday,10:00-12:00,1,0,0,1.0
+2923,58,Male,New Consultation,35,3,2,Thursday,14:00-16:00,1,0,0,0.6666666666666666
+2595,48,Male,Follow-up,9,0,0,Wednesday,08:00-10:00,1,1,0,0.0
+149,51,Female,Urgent Visit,5,4,0,Friday,08:00-10:00,0,0,0,0.0
+1206,51,Male,Follow-up,13,0,0,Monday,08:00-10:00,1,1,0,0.0
+2703,28,Male,Follow-up,5,0,0,Saturday,16:00-18:00,0,1,0,0.0
+2120,30,Male,Follow-up,6,10,1,Monday,14:00-16:00,0,0,1,0.1
+2858,75,Male,Procedure,17,1,0,Monday,14:00-16:00,1,0,0,0.0
+1996,58,Male,Procedure,13,0,0,Thursday,14:00-16:00,1,1,0,0.0
+2863,53,Female,Routine Check,7,0,0,Saturday,18:00-20:00,1,1,1,0.0
+1276,49,Female,New Consultation,16,0,0,Saturday,10:00-12:00,1,1,0,0.0
+476,13,Female,Follow-up,9,3,0,Saturday,12:00-14:00,0,0,0,0.0
+2012,27,Male,New Consultation,14,3,0,Friday,08:00-10:00,1,0,0,0.0
+1524,35,Male,Follow-up,5,2,0,Tuesday,10:00-12:00,1,0,0,0.0
+1281,92,Male,Follow-up,20,0,0,Wednesday,16:00-18:00,0,1,0,0.0
+1851,42,Male,Routine Check,3,1,0,Friday,14:00-16:00,1,0,0,0.0
+1386,40,Male,New Consultation,14,2,0,Tuesday,12:00-14:00,0,0,0,0.0
+1287,71,Female,Follow-up,16,2,0,Tuesday,14:00-16:00,0,0,0,0.0
+1202,27,Female,New Consultation,13,1,0,Friday,16:00-18:00,1,0,0,0.0
+2462,23,Female,Follow-up,11,0,0,Monday,10:00-12:00,0,1,0,0.0
+1599,41,Male,Procedure,3,0,0,Thursday,10:00-12:00,1,1,0,0.0
+231,26,Female,Follow-up,10,1,0,Saturday,18:00-20:00,0,0,0,0.0
+2722,45,Male,Urgent Visit,7,1,0,Tuesday,16:00-18:00,1,0,0,0.0
+1065,16,Female,New Consultation,3,0,0,Tuesday,16:00-18:00,0,1,0,0.0
+2282,10,Male,Procedure,9,0,0,Wednesday,16:00-18:00,0,1,0,0.0
+2488,75,Female,Follow-up,29,6,2,Tuesday,18:00-20:00,1,0,0,0.3333333333333333
+297,30,Female,Procedure,17,4,0,Thursday,14:00-16:00,1,0,0,0.0
+1228,55,Female,Follow-up,12,1,1,Thursday,08:00-10:00,1,0,0,1.0
+2960,12,Male,Follow-up,4,13,1,Tuesday,14:00-16:00,1,0,1,0.07692307692307693
+2981,26,Female,New Consultation,10,0,0,Thursday,12:00-14:00,0,1,0,0.0
+663,44,Female,Follow-up,6,4,0,Wednesday,10:00-12:00,1,0,0,0.0
+1964,83,Female,Urgent Visit,2,9,3,Monday,08:00-10:00,1,0,0,0.3333333333333333
+2891,9,Male,New Consultation,11,23,3,Wednesday,14:00-16:00,1,0,0,0.13043478260869565
+2561,78,Male,Follow-up,6,7,0,Monday,10:00-12:00,1,0,0,0.0
+2188,12,Female,Follow-up,8,19,2,Thursday,14:00-16:00,1,0,0,0.10526315789473684
+2533,30,Male,Follow-up,11,2,0,Monday,12:00-14:00,1,0,0,0.0
+2273,41,Male,Urgent Visit,2,1,0,Tuesday,10:00-12:00,1,0,0,0.0
+2336,53,Female,Routine Check,7,16,1,Wednesday,16:00-18:00,0,0,1,0.0625
+1384,56,Male,New Consultation,38,1,0,Monday,16:00-18:00,1,0,0,0.0
+923,40,Female,Urgent Visit,5,4,1,Saturday,14:00-16:00,1,0,0,0.25
+1283,24,Male,New Consultation,25,11,0,Friday,10:00-12:00,0,0,1,0.0
+2066,43,Male,Follow-up,12,0,0,Friday,14:00-16:00,1,1,0,0.0
+2900,45,Male,Follow-up,3,0,0,Monday,18:00-20:00,0,1,0,0.0
+2926,44,Female,New Consultation,21,0,0,Tuesday,10:00-12:00,0,1,0,0.0
+2505,42,Female,New Consultation,10,4,0,Monday,10:00-12:00,1,0,0,0.0
+1627,72,Female,Routine Check,15,3,0,Thursday,18:00-20:00,1,0,0,0.0
+2434,42,Male,Follow-up,13,0,0,Thursday,10:00-12:00,1,1,1,0.0
+779,37,Male,Follow-up,1,2,2,Saturday,14:00-16:00,1,0,0,1.0
+1315,63,Female,Follow-up,6,3,0,Thursday,16:00-18:00,0,0,0,0.0
+2258,27,Male,Follow-up,20,8,0,Thursday,10:00-12:00,1,0,0,0.0
+2562,43,Male,Follow-up,24,0,0,Wednesday,08:00-10:00,1,1,0,0.0
+561,52,Female,Routine Check,18,11,5,Saturday,16:00-18:00,1,0,0,0.45454545454545453
+234,30,Male,New Consultation,17,1,1,Tuesday,12:00-14:00,1,0,0,1.0
+1039,39,Male,Follow-up,9,1,0,Friday,08:00-10:00,1,0,0,0.0
+2270,51,Male,Routine Check,12,10,1,Friday,16:00-18:00,1,0,0,0.1
+786,47,Female,Follow-up,29,0,0,Friday,14:00-16:00,1,1,0,0.0
+183,34,Female,Follow-up,3,0,0,Tuesday,16:00-18:00,1,1,0,0.0
+2966,37,Female,New Consultation,6,1,0,Tuesday,10:00-12:00,1,0,0,0.0
+964,26,Female,Procedure,15,0,0,Monday,18:00-20:00,1,1,0,0.0
+942,48,Female,Follow-up,4,12,0,Monday,08:00-10:00,0,0,0,0.0
+1803,47,Male,Follow-up,8,4,0,Wednesday,14:00-16:00,1,0,0,0.0
+2300,67,Male,New Consultation,11,10,2,Monday,12:00-14:00,0,0,0,0.2
+26,48,Female,New Consultation,4,0,0,Wednesday,16:00-18:00,1,1,0,0.0
+569,13,Female,New Consultation,6,17,2,Wednesday,14:00-16:00,0,0,0,0.11764705882352941
+1061,48,Female,Follow-up,8,0,0,Tuesday,14:00-16:00,1,1,1,0.0
+2032,53,Male,New Consultation,10,1,0,Monday,16:00-18:00,1,0,0,0.0
+1994,43,Female,Follow-up,16,8,0,Friday,12:00-14:00,0,0,0,0.0
+877,55,Female,Follow-up,5,10,1,Friday,08:00-10:00,0,0,0,0.1
+2685,47,Female,Follow-up,3,2,0,Monday,16:00-18:00,1,0,0,0.0
+2047,33,Male,Procedure,18,0,0,Thursday,16:00-18:00,1,1,0,0.0
+2511,51,Male,New Consultation,24,6,2,Friday,14:00-16:00,1,0,1,0.3333333333333333
+1807,51,Female,Procedure,12,6,1,Friday,12:00-14:00,1,0,0,0.16666666666666666
+1560,26,Female,New Consultation,2,0,0,Friday,18:00-20:00,1,1,0,0.0
+235,34,Female,New Consultation,17,6,1,Friday,16:00-18:00,0,0,0,0.16666666666666666
+952,40,Female,Procedure,3,14,1,Thursday,16:00-18:00,1,0,0,0.07142857142857142

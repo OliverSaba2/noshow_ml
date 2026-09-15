@@ -25,27 +25,27 @@ EXAMPLE_PATIENTS = pd.DataFrame(
     [
         # Long-time patient, good attendance history, reminder sent, morning slot.
         dict(
-            age=52, gender="F", appointment_type="follow_up", days_before_appointment=3,
+            age=52, gender="Female", appointment_type="Follow-up", days_before_appointment=3,
             previous_appointments=12, previous_no_shows=0, weekday="Tuesday",
-            appointment_time="morning", reminder_sent=1, new_patient=0,
+            appointment_time="08:00-10:00", reminder_sent=1, new_patient=0,
         ),
         # Brand-new patient, no reminder, long lead time, evening slot -> high risk.
         dict(
-            age=24, gender="M", appointment_type="dental", days_before_appointment=45,
+            age=24, gender="Male", appointment_type="Procedure", days_before_appointment=45,
             previous_appointments=0, previous_no_shows=0, weekday="Monday",
-            appointment_time="evening", reminder_sent=0, new_patient=1,
+            appointment_time="18:00-20:00", reminder_sent=0, new_patient=1,
         ),
         # Returning patient with a history of missing appointments, no reminder.
         dict(
-            age=31, gender="M", appointment_type="general", days_before_appointment=21,
+            age=31, gender="Male", appointment_type="Routine Check", days_before_appointment=21,
             previous_appointments=8, previous_no_shows=5, weekday="Friday",
-            appointment_time="afternoon", reminder_sent=0, new_patient=0,
+            appointment_time="14:00-16:00", reminder_sent=0, new_patient=0,
         ),
         # Regular patient, reminder sent, appointment is in a couple of days.
         dict(
-            age=67, gender="F", appointment_type="specialist", days_before_appointment=2,
+            age=67, gender="Female", appointment_type="Urgent Visit", days_before_appointment=2,
             previous_appointments=6, previous_no_shows=1, weekday="Wednesday",
-            appointment_time="morning", reminder_sent=1, new_patient=0,
+            appointment_time="08:00-10:00", reminder_sent=1, new_patient=0,
         ),
     ]
 )

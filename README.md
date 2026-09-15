@@ -25,21 +25,19 @@ Or skip the CLI and browse everything in a small UI:
 streamlit run app.py
 ```
 
-`data/appointments.csv` is a synthetic dataset (no real one was attached to the
-assessment).
-
 ## Columns
 
 | Column | Meaning |
 |---|---|
+| appointment_id | Row identifier (not used as a model feature) |
 | age | Patient age |
-| gender | M / F |
-| appointment_type | general / specialist / dental / vaccination / follow_up |
+| gender | Female / Male |
+| appointment_type | Follow-up / New Consultation / Procedure / Routine Check / Urgent Visit |
 | days_before_appointment | Lead time between booking and the appointment |
 | previous_appointments | Count of the patient's past appointments |
 | previous_no_shows | Count of the patient's past no-shows |
 | weekday | Day of the appointment |
-| appointment_time | morning / afternoon / evening |
+| appointment_time | One of six 2-hour slots, e.g. `08:00-10:00` |
 | reminder_sent | Whether a reminder was sent (0/1) |
 | new_patient | Whether this is the patient's first appointment (0/1) |
 | no_show | Target: 1 = missed appointment, 0 = attended |

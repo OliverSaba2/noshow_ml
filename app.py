@@ -142,10 +142,7 @@ with tab_insights:
 # ----------------------------------------------------------------- Dataset -
 with tab_data:
     st.subheader("Dataset overview")
-    st.caption(
-        "No dataset was attached to the assessment, so this is a synthetically generated "
-        "stand-in with a realistic (not perfectly separable) no-show pattern."
-    )
+    st.caption("Appointment records used to train and evaluate the model.")
 
     c1, c2, c3 = st.columns(3)
     c1.metric("Rows", len(df))
